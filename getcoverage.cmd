@@ -1,0 +1,2 @@
+packages\OpenCover.4.6.519\tools\OpenCover.Console -output:coverage.xml -target:"packages\xunit.runner.console.2.3.1\tools\net452\xunit.console.exe" -targetdir:"Test\bin\Debug" -targetargs:"Test.dll" -register:user
+packages\ReportGenerator.3.1.2\tools\ReportGenerator -reports:coverage.xml -targetdir:report

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AdhocTest", "AdhocTest\AdhocTest.vbproj", "{3CBC370E-0945-4A11-BAD7-1F649E2B1C3A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBGraphics", "VBGraphics\VBGraphics.vbproj", "{C4C0E3C6-D2AE-4E92-BB2D-E4A69DED8A11}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Test", "Test\Test.vbproj", "{E5C03FD0-92EF-493A-B1C4-6723D86DC6AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CBC370E-0945-4A11-BAD7-1F649E2B1C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CBC370E-0945-4A11-BAD7-1F649E2B1C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CBC370E-0945-4A11-BAD7-1F649E2B1C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CBC370E-0945-4A11-BAD7-1F649E2B1C3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C0E3C6-D2AE-4E92-BB2D-E4A69DED8A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C0E3C6-D2AE-4E92-BB2D-E4A69DED8A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C0E3C6-D2AE-4E92-BB2D-E4A69DED8A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C0E3C6-D2AE-4E92-BB2D-E4A69DED8A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C03FD0-92EF-493A-B1C4-6723D86DC6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C03FD0-92EF-493A-B1C4-6723D86DC6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C03FD0-92EF-493A-B1C4-6723D86DC6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C03FD0-92EF-493A-B1C4-6723D86DC6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB0F90BF-3839-4347-AB9C-9240C17041ED}
+	EndGlobalSection
+EndGlobal
