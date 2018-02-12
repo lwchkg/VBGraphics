@@ -19,6 +19,7 @@ Namespace Global.VBGraphics
                      Optional fontStyle As FontStyle = FontStyle.Regular)
             Dim font As New Font(fontName, emSize, fontStyle)
             TextRenderer.DrawText(gw.CreateGraphics, text, font, New Point(x, y), color)
+            gw.Invalidate()
         End Sub
 
         <Extension()>
