@@ -4,8 +4,8 @@ Imports System.Windows.Forms
 
 Namespace Global.VBGraphics
     Public Structure KeyInfo
-        Dim Key As KeyEventArgs
-        Dim KeyChar As Char
+        ReadOnly Property Key As KeyEventArgs
+        ReadOnly Property KeyChar As Char
         Sub New(key As KeyEventArgs, keyChar As Char)
             Me.Key = key
             Me.KeyChar = keyChar
