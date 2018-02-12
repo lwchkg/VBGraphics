@@ -20,7 +20,8 @@ Public Class GraphicsWindowLayoutTest
     ReadOnly helper As ITestOutputHelper
 
     ' Tolerance of layout test, which is the absolute difference of R + G + B + A.
-    Dim allowedColorDifference As Integer = 0
+    Dim allowedTotalDiff As Long = 0L
+    Dim allowedNumPixelsWithDiff As Integer = 0
 
     Public Sub New(testOutputHelper As ITestOutputHelper)
         gw = New GraphicsWindow(400, 400)
@@ -80,19 +81,30 @@ Public Class GraphicsWindowLayoutTest
                 Assert.StrictEqual(bitmapExpected.Size, bitmapActual.Size)
             End If
 
+            Dim totalDiff As Long = 0L
+            Dim numPixelsWithDiff As Integer = 0
             For y As Integer = 0 To bitmapExpected.Height - 1
                 For x As Integer = 0 To bitmapExpected.Width - 1
                     Dim expectedColor As Color = bitmapExpected.GetPixel(x, y)
                     Dim actualColor As Color = bitmapActual.GetPixel(x, y)
                     Dim diff As Integer = ColorDifference(expectedColor, actualColor)
-                    If diff > allowedColorDifference Then
-                        Const pixelDifferent As String = "Pixel at coordinate ({0}, {1}) different. Expected: {2}. Actual: {3}. Difference: {4}. Allowed difference: {5}."
-                        bitmapActual.Save(pathActual)
-                        Assert.True(False, String.Format(pixelDifferent, x, y, expectedColor,
-                                                         actualColor, diff, allowedColorDifference))
+                    If diff > 0 Then
+                        totalDiff += diff
+                        numPixelsWithDiff += 1
                     End If
                 Next
             Next
+
+            ' Output actual image if there is a difference, even if the test passes.
+            If totalDiff > 0 Then
+                bitmapActual.Save(pathActual)
+            End If
+
+            If totalDiff > allowedTotalDiff Or numPixelsWithDiff > allowedNumPixelsWithDiff Then
+                Const imageDifferent As String = "Images are different. Total difference: {0} (Allowance: {1}). Number of pixels with difference: {2} (Allowance: {3})."
+                Assert.True(False, String.Format(imageDifferent, totalDiff, allowedTotalDiff,
+                                                 numPixelsWithDiff, allowedNumPixelsWithDiff))
+            End If
         End If
     End Sub
 
@@ -191,6 +203,11 @@ Public Class GraphicsWindowLayoutTest
 
     <Fact>
     Public Sub TextAlign2()
+        ' Set tolerance. This is necessary because text are rendered differently in different
+        ' platforms. View actual images before accepting a PR.
+        allowedTotalDiff = 175000L
+        allowedNumPixelsWithDiff = 3500
+
         Dim s As String = "Lorem ipsum sit dolor amat, Lorem ipsum sit dolor amat"
         Dim x As Integer = 10
         Dim y As Integer = 10
@@ -214,6 +231,11 @@ Public Class GraphicsWindowLayoutTest
 
     <Fact>
     Public Sub ReadLine()
+        ' Set tolerance. This is necessary because text are rendered differently in different
+        ' platforms. View actual images before accepting a PR.
+        allowedTotalDiff = 20000L
+        allowedNumPixelsWithDiff = 300
+
         Const keys As String = "123{BKSP}ABC{ENTER}"
 
         gw.Form.BringToFront()

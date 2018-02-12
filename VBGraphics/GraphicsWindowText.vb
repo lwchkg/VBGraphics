@@ -26,9 +26,11 @@ Namespace Global.VBGraphics
         Sub DrawTextInRectangle(gw As GraphicsWindow, text As String, x As Integer, y As Integer,
                                 width As Integer, height As Integer, color As Color, font As Font,
                                 Optional flags As TextFormatFlags = TextFormatFlags.Default)
-
-            TextRenderer.DrawText(gw.CreateGraphics, text, font, New Rectangle(x, y, width, height),
-                                  color, flags)
+            Using g As Graphics = gw.CreateGraphics
+                g.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit
+                TextRenderer.DrawText(g, text, font, New Rectangle(x, y, width, height),
+                                      color, flags)
+            End Using
             gw.Invalidate()
         End Sub
 
