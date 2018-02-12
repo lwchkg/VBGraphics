@@ -6,6 +6,7 @@ Imports System.ComponentModel
 Imports System.Drawing
 Imports System.Windows.Forms
 
+<Assembly: CLSCompliant(True)>
 Namespace Global.VBGraphics
     Public Class GraphicsWindow
         Implements IDisposable
