@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>VBGraphics</id>
+    <version>0.0.1</version>
+    <authors>Leung Wing-chung</authors>
+    <owners>Leung Wing-chung</owners>
+    <licenseUrl>https://github.com/lwchkg/VBGraphics/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/lwchkg/VBGraphics</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>QBasic style graphics for .NET</description>
+    <releaseNotes>Alpha release</releaseNotes>
+    <copyright>Copyright 2018 Leung Wing-chung</copyright>
+    <tags>graphics</tags>
+  </metadata>
+  <files>
+    <file src=".\VBGraphics\**" target="" />
+  </files>
+</package>
