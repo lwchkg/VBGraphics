@@ -100,7 +100,8 @@ Namespace Global.VBGraphics
 
             Public Property IsInputFinished As Boolean = False
 
-            Private Sub CustomTextBox_KeyPress(sender As Object, e As KeyPressEventArgs) Handles Me.KeyPress
+            Private Sub CustomTextBox_KeyPress(sender As Object, e As KeyPressEventArgs) _
+                Handles Me.KeyPress
                 If e.KeyChar = Microsoft.VisualBasic.ControlChars.Cr Then
                     IsInputFinished = True
                 End If

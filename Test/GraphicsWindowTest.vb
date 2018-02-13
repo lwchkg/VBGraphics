@@ -117,6 +117,41 @@ Public Class GraphicsWindowTest
     End Sub
 
     <Fact>
+    Public Sub SpecialKeys()
+        gw.Form.BringToFront()
+        Application.DoEvents()
+
+        Assert.False(gw.KeyAvailable)
+        Assert.StrictEqual(New KeyInfo(Nothing, ControlChars.NullChar), gw.ReadKeyInfoIfAvailable)
+
+        ' Only tests some of the keys because the rest cannot be emulated with SendKeys. Keys that
+        ' are not tested are Pause, Numpad 5 (without number lock), Ctrl, Alt, Shift, Menu, F10,
+        ' and F17 to F24. Note that F10 is not tested because it activates the menu bar and
+        ' and therefore makes tests to fail.
+        Dim keysToTest As Keys() = {
+            Keys.F1, Keys.F2, Keys.F3, Keys.F4, Keys.F5, Keys.F6, Keys.F7, Keys.F8, Keys.F9,
+            Keys.F11, Keys.F12, Keys.F13, Keys.F14, Keys.F15, Keys.F16, Keys.Up, Keys.Down,
+            Keys.Left, Keys.Right, Keys.PageUp, Keys.PageDown, Keys.Home, Keys.End, Keys.Insert,
+            Keys.Delete, Keys.CapsLock, Keys.NumLock, Keys.Scroll
+        }
+        SendKeys.SendWait("{F1}{F2}{F3}{F4}{F5}{F6}{F7}{F8}{F9}{F11}{F12}{F13}{F14}{F15}{F16}{UP}" +
+                          "{DOWN}{LEFT}{RIGHT}{PGUP}{PGDN}{HOME}{END}{INS}{DEL}{CAPSLOCK}" +
+                          "{NUMLOCK}{SCROLLLOCK}")
+
+        For Each keyToTest In keysToTest
+            Assert.True(gw.KeyAvailable)
+            Dim key As KeyInfo = gw.ReadKeyInfo()
+            Assert.StrictEqual(keyToTest, key.Key.KeyData)
+            Assert.StrictEqual(ControlChars.NullChar, key.KeyChar)
+        Next
+
+        ' Cannot assert that the key buffer is empty here because caps lock, number lock and scroll
+        ' lock get registered in the buffer twice. We have manually tested that if those keys are
+        ' pressed in the keyboard instead of by SendKeys, each of them registers only once in the
+        ' buffer.
+    End Sub
+
+    <Fact>
     Public Sub EmptyKeys()
         gw.Form.BringToFront()
         Application.DoEvents()
