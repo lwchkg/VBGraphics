@@ -6,6 +6,11 @@
 # Layout test error outputs
 *-actual.png
 
+# Nuget builds
+build/*
+!build/*.nuspec
+!build/*.ps1
+
 # User-specific files
 *.suo
 *.user

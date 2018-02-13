@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>VBGraphics</id>
+    <title>VBGraphics</title>
+    <version>0.0.1</version>
+    <authors>Leung Wing-chung</authors>
+    <owners>Leung Wing-chung</owners>
+    <licenseUrl>https://github.com/lwchkg/VBGraphics/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/lwchkg/VBGraphics</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>QBasic style graphics and keyboard routines for .NET framework.
+
+VBGraphics provides simple graphics and keyboard handling routines that wraps around WinForms and GDI+. With these routines, beginning programmers can create simple games in the QBasic way.
+
+For more details how to use VBGraphics, check the project site.</description>
+    <summary>QBasic style graphics and keyboard routines for .NET framework</summary>
+    <releaseNotes>Release notes will be available in future versions.</releaseNotes>
+    <copyright>Copyright 2018 Leung Wing-chung</copyright>
+    <tags>graphics</tags>
+  </metadata>
+  <files>
+    <file src=".\VBGraphics\**" target="" />
+  </files>
+</package>
