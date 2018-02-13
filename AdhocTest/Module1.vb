@@ -125,13 +125,23 @@ Module Module1
         gw.WaitUntilKeyAvailable()
         'gw.EmptyKeys()
 
+        Dim numKeysPressed As Integer = 0
+        gw.CaptureModifierKeys = True
         While gw.IsLiving
-            Dim k = gw.ReadKey()
-            If IsNothing(k) Then Exit While
-            If k.KeyCode = System.Windows.Forms.Keys.Escape Then Exit While
+            Dim keyInfo = gw.ReadKeyInfo()
+            Dim key = keyInfo.Key
+            If IsNothing(key) Then Exit While
+            If key.KeyCode = System.Windows.Forms.Keys.Escape Then Exit While
             gw.Clear(Color.Black)
-            Dim s As String = String.Format("Key: {0}, Keyvalue: {1}", k.KeyData, k.KeyValue)
+
+            numKeysPressed += 1
+            Dim s As String = String.Format("Key: {0}, Keyvalue: {1}", key.KeyData, key.KeyValue)
             gw.DrawText(s, 10, 10, Color.White, "Consolas", 12)
+            s = String.Format("Keychar code: {0}, Keychar: {1}", Convert.ToInt32(keyInfo.KeyChar),
+                              keyInfo.KeyChar)
+            gw.DrawText(s, 10, 26, Color.White, "Consolas", 12)
+            s = String.Format("Number of keys pressed: {0}", numKeysPressed)
+            gw.DrawText(s, 10, 42, Color.White, "Consolas", 12)
             gw.DrawLine(0, 0, 99, 399, Color.White)
             gw.DrawLine(50, 0, 149, 399, Color.White, 1.5F)
             gw.DrawLineWithSmoothing(100, 0, 199, 399, Color.White)

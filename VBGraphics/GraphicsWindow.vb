@@ -4,6 +4,7 @@ Imports System
 Imports System.Collections.Generic
 Imports System.ComponentModel
 Imports System.Drawing
+Imports System.Linq
 Imports System.Windows.Forms
 
 <Assembly: CLSCompliant(True)>
@@ -43,6 +44,7 @@ Namespace Global.VBGraphics
 
         ReadOnly Property IsLiving As Boolean = True
         Property CanClose As Boolean = False
+        Property CaptureModifierKeys As Boolean = False
 
         ReadOnly Property Form As Form
             Get
@@ -102,7 +104,7 @@ Namespace Global.VBGraphics
         End Function
 
         Public Sub WaitUntilKeyAvailable()
-            While Not KeyAvailable And IsLiving
+            While Not KeyAvailable AndAlso IsLiving
                 Application.DoEvents()
             End While
         End Sub
@@ -111,12 +113,34 @@ Namespace Global.VBGraphics
             _keys.Clear()
         End Sub
 
+        Private Shared ReadOnly nonKeyPressKeys As Keys() = {
+            Keys.F1, Keys.F2, Keys.F3, Keys.F4, Keys.F5, Keys.F6, Keys.F7, Keys.F8, Keys.F9,
+            Keys.F10, Keys.F11, Keys.F12, Keys.F13, Keys.F14, Keys.F15, Keys.F16, Keys.F17,
+            Keys.F18, Keys.F19, Keys.F20, Keys.F21, Keys.F22, Keys.F23, Keys.F24, Keys.Up,
+            Keys.Down, Keys.Left, Keys.Right, Keys.PageUp, Keys.PageDown, Keys.Home, Keys.End,
+            Keys.Insert, Keys.Delete, Keys.Pause, Keys.Clear, Keys.CapsLock, Keys.NumLock,
+            Keys.Scroll, Keys.Apps
+        }
+
+        Private Shared ReadOnly modifierKeys As Keys() = {
+            Keys.ControlKey, Keys.ShiftKey, Keys.Menu
+        }
+
         Private Sub _Form_KeyDown(sender As Object, e As KeyEventArgs) Handles _Form.KeyDown
             _currentKey = e
+            If nonKeyPressKeys.Contains(e.KeyCode) OrElse
+               _CaptureModifierKeys AndAlso modifierKeys.Contains(e.KeyCode) Then
+                _keys.Enqueue(New KeyInfo(_currentKey, Microsoft.VisualBasic.ControlChars.NullChar))
+            End If
         End Sub
 
         Private Sub _Form_KeyPress(sender As Object, e As KeyPressEventArgs) Handles _Form.KeyPress
             _keys.Enqueue(New KeyInfo(_currentKey, e.KeyChar))
+        End Sub
+
+        Private Sub _Form_PreviewKeyDown(sender As Object, e As PreviewKeyDownEventArgs) _
+            Handles _Form.PreviewKeyDown
+            e.IsInputKey = True
         End Sub
 #End Region
 
