@@ -104,6 +104,7 @@ Namespace Global.VBGraphics
                 Handles Me.KeyPress
                 If e.KeyChar = Microsoft.VisualBasic.ControlChars.Cr Then
                     IsInputFinished = True
+                    e.Handled = True
                 End If
             End Sub
 
