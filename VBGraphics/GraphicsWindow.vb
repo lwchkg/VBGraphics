@@ -71,6 +71,7 @@ Namespace Global.VBGraphics
 #Region "Key Handlers"
         ReadOnly Property KeyAvailable As Boolean
             Get
+                Application.DoEvents()
                 Return _keys.Count > 0
             End Get
         End Property
@@ -105,7 +106,6 @@ Namespace Global.VBGraphics
 
         Public Sub WaitUntilKeyAvailable()
             While Not KeyAvailable AndAlso IsLiving
-                Application.DoEvents()
             End While
         End Sub
 
