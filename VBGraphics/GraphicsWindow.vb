@@ -15,6 +15,7 @@ Namespace Global.VBGraphics
         Private WithEvents _Form As GraphicsForm
         Private _keys As New Queue(Of KeyInfo)
         Private _currentKey As KeyEventArgs
+        Private _disposing As Boolean = False
 
         Sub New(width As Integer, height As Integer)
             Me.New(width, height, Color.Black)
@@ -37,13 +38,30 @@ Namespace Global.VBGraphics
         End Sub
 
         Protected Overridable Sub Dispose(disposing As Boolean)
-            _CanClose = True
+            _disposing = True
             _Form.Close()
             _Image.Dispose()
         End Sub
 
+        ' WindowClosing is raised when the user close the form, when GraphicsWindow.Form.Close is
+        ' called, and when Application.Exit is called. However, the event is not raised when
+        ' GraphicsWindow is disposed of, nor when Windows shut down.
+        Public Event WindowClosing(sender As GraphicsWindow, e As FormClosingEventArgs)
+
+        ' WindowClosed is always raised when the GraphicsWindow is closed. In the case of disposing
+        ' GraphicsWindows, the image in GraphicsWindow is disposed after this event is raised.
+        Public Event WindowClosed(sender As Object, e As FormClosedEventArgs)
+
         ReadOnly Property IsLiving As Boolean = True
+
+        ' Whether GraphicsWindow can be closed by user action, Form.Close or Application.Exit.
+        ' However, this is ignored when GraphicsWindows is disposed of, and when Windows shut down.
         Property CanClose As Boolean = False
+
+        ' If true, calls Environment.Exit after GraphicsWindow is closed. EndProgramOnClose is
+        ' handled after WindowClosed event is raised.
+        Property EndProgramOnClose As Boolean = True
+
         Property CaptureModifierKeys As Boolean = False
 
         ReadOnly Property Form As Form
@@ -178,9 +196,13 @@ Namespace Global.VBGraphics
 
         Private Sub _Form_Closing(sender As Object, e As FormClosingEventArgs) _
             Handles _Form.FormClosing
-            If Not _CanClose AndAlso
-               e.CloseReason <> CloseReason.WindowsShutDown AndAlso
-               e.CloseReason <> CloseReason.ApplicationExitCall Then
+            If _disposing OrElse e.CloseReason = CloseReason.WindowsShutDown Then
+                Return
+            End If
+
+            If _CanClose OrElse e.CloseReason = CloseReason.ApplicationExitCall Then
+                RaiseEvent WindowClosing(Me, e)
+            Else
                 e.Cancel = True
             End If
         End Sub
@@ -188,6 +210,10 @@ Namespace Global.VBGraphics
         Private Sub _Form_FormClosed(sender As Object, e As FormClosedEventArgs) _
             Handles _Form.FormClosed
             _IsLiving = False
+            RaiseEvent WindowClosed(Me, e)
+            If EndProgramOnClose Then
+                Environment.Exit(0)
+            End If
         End Sub
     End Class
 

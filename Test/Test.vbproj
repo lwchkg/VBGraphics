@@ -82,6 +82,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GraphicsWindowClosingTest.vb" />
     <Compile Include="GraphicsWindowConstructorTest.vb" />
     <Compile Include="GraphicsWindowTest.vb" />
     <Compile Include="GraphicsWindowLayoutTest.vb" />

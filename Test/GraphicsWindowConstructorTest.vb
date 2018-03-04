@@ -9,6 +9,7 @@ Public Class GraphicsWindowConstructorTest
     Public Sub NewWindow()
         Dim size As New Size(100, 100)
         Dim gw As New GraphicsWindow(size.Width, size.Height, Color.Azure)
+        gw.EndProgramOnClose = False
 
         Dim bitmap As New Bitmap(gw.Image)
         Assert.StrictEqual(size, bitmap.Size)

@@ -12,6 +12,7 @@ Public Class GraphicsWindowTest
 
     Public Sub New()
         gw = New GraphicsWindow(100, 100)
+        gw.EndProgramOnClose = False
     End Sub
 
     Public Sub Dispose() Implements IDisposable.Dispose

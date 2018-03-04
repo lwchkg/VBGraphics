@@ -102,6 +102,7 @@ Module Module1
 
     Sub Main()
         Dim gw = New GraphicsWindow(400, 400)
+        gw.CanClose = True
         Dim g = Graphics.FromImage(gw.Image)
 
         Screen1(gw)
