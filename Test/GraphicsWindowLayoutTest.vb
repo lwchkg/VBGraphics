@@ -25,6 +25,7 @@ Public Class GraphicsWindowLayoutTest
 
     Public Sub New(testOutputHelper As ITestOutputHelper)
         gw = New GraphicsWindow(400, 400)
+        gw.EndProgramOnClose = False
         Me.helper = testOutputHelper
         Dim helper = CType(testOutputHelper, TestOutputHelper)
         testName = CType(helper.GetType().
