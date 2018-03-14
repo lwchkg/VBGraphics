@@ -1,0 +1,624 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: VBGraphics
+  name: VBGraphics
+  href: api/VBGraphics.html
+  commentId: N:VBGraphics
+  fullName: VBGraphics
+  nameWithType: VBGraphics
+- uid: VBGraphics.BitmapImage
+  name: BitmapImage
+  href: api/VBGraphics.BitmapImage.html
+  commentId: T:VBGraphics.BitmapImage
+  fullName: VBGraphics.BitmapImage
+  nameWithType: BitmapImage
+- uid: VBGraphics.BitmapImage.DrawImage(VBGraphics.GraphicsWindow,System.Drawing.Image,System.Int32,System.Int32)
+  name: DrawImage(GraphicsWindow, Image, Int32, Int32)
+  href: api/VBGraphics.BitmapImage.html#VBGraphics_BitmapImage_DrawImage_VBGraphics_GraphicsWindow_System_Drawing_Image_System_Int32_System_Int32_
+  commentId: M:VBGraphics.BitmapImage.DrawImage(VBGraphics.GraphicsWindow,System.Drawing.Image,System.Int32,System.Int32)
+  fullName: VBGraphics.BitmapImage.DrawImage(VBGraphics.GraphicsWindow, System.Drawing.Image, System.Int32, System.Int32)
+  nameWithType: BitmapImage.DrawImage(GraphicsWindow, Image, Int32, Int32)
+- uid: VBGraphics.BitmapImage.DrawImage*
+  name: DrawImage
+  href: api/VBGraphics.BitmapImage.html#VBGraphics_BitmapImage_DrawImage_
+  commentId: Overload:VBGraphics.BitmapImage.DrawImage
+  fullName: VBGraphics.BitmapImage.DrawImage
+  nameWithType: BitmapImage.DrawImage
+- uid: VBGraphics.BitmapImage.DrawImageResized(VBGraphics.GraphicsWindow,System.Drawing.Image,System.Int32,System.Int32,System.Int32,System.Int32)
+  name: DrawImageResized(GraphicsWindow, Image, Int32, Int32, Int32, Int32)
+  href: api/VBGraphics.BitmapImage.html#VBGraphics_BitmapImage_DrawImageResized_VBGraphics_GraphicsWindow_System_Drawing_Image_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:VBGraphics.BitmapImage.DrawImageResized(VBGraphics.GraphicsWindow,System.Drawing.Image,System.Int32,System.Int32,System.Int32,System.Int32)
+  fullName: VBGraphics.BitmapImage.DrawImageResized(VBGraphics.GraphicsWindow, System.Drawing.Image, System.Int32, System.Int32, System.Int32, System.Int32)
+  nameWithType: BitmapImage.DrawImageResized(GraphicsWindow, Image, Int32, Int32, Int32, Int32)
+- uid: VBGraphics.BitmapImage.DrawImageResized*
+  name: DrawImageResized
+  href: api/VBGraphics.BitmapImage.html#VBGraphics_BitmapImage_DrawImageResized_
+  commentId: Overload:VBGraphics.BitmapImage.DrawImageResized
+  fullName: VBGraphics.BitmapImage.DrawImageResized
+  nameWithType: BitmapImage.DrawImageResized
+- uid: VBGraphics.BitmapImage.DrawImageResizedWithSmoothing(VBGraphics.GraphicsWindow,System.Drawing.Image,System.Int32,System.Int32,System.Int32,System.Int32)
+  name: DrawImageResizedWithSmoothing(GraphicsWindow, Image, Int32, Int32, Int32, Int32)
+  href: api/VBGraphics.BitmapImage.html#VBGraphics_BitmapImage_DrawImageResizedWithSmoothing_VBGraphics_GraphicsWindow_System_Drawing_Image_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:VBGraphics.BitmapImage.DrawImageResizedWithSmoothing(VBGraphics.GraphicsWindow,System.Drawing.Image,System.Int32,System.Int32,System.Int32,System.Int32)
+  fullName: VBGraphics.BitmapImage.DrawImageResizedWithSmoothing(VBGraphics.GraphicsWindow, System.Drawing.Image, System.Int32, System.Int32, System.Int32, System.Int32)
+  nameWithType: BitmapImage.DrawImageResizedWithSmoothing(GraphicsWindow, Image, Int32, Int32, Int32, Int32)
+- uid: VBGraphics.BitmapImage.DrawImageResizedWithSmoothing*
+  name: DrawImageResizedWithSmoothing
+  href: api/VBGraphics.BitmapImage.html#VBGraphics_BitmapImage_DrawImageResizedWithSmoothing_
+  commentId: Overload:VBGraphics.BitmapImage.DrawImageResizedWithSmoothing
+  fullName: VBGraphics.BitmapImage.DrawImageResizedWithSmoothing
+  nameWithType: BitmapImage.DrawImageResizedWithSmoothing
+- uid: VBGraphics.BitmapImage.DrawImageWithClipping(VBGraphics.GraphicsWindow,System.Drawing.Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  name: DrawImageWithClipping(GraphicsWindow, Image, Int32, Int32, Int32, Int32, Int32, Int32)
+  href: api/VBGraphics.BitmapImage.html#VBGraphics_BitmapImage_DrawImageWithClipping_VBGraphics_GraphicsWindow_System_Drawing_Image_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:VBGraphics.BitmapImage.DrawImageWithClipping(VBGraphics.GraphicsWindow,System.Drawing.Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  fullName: VBGraphics.BitmapImage.DrawImageWithClipping(VBGraphics.GraphicsWindow, System.Drawing.Image, System.Int32, System.Int32, System.Int32, System.Int32, System.Int32, System.Int32)
+  nameWithType: BitmapImage.DrawImageWithClipping(GraphicsWindow, Image, Int32, Int32, Int32, Int32, Int32, Int32)
+- uid: VBGraphics.BitmapImage.DrawImageWithClipping*
+  name: DrawImageWithClipping
+  href: api/VBGraphics.BitmapImage.html#VBGraphics_BitmapImage_DrawImageWithClipping_
+  commentId: Overload:VBGraphics.BitmapImage.DrawImageWithClipping
+  fullName: VBGraphics.BitmapImage.DrawImageWithClipping
+  nameWithType: BitmapImage.DrawImageWithClipping
+- uid: VBGraphics.BitmapImage.GetBitmap(VBGraphics.GraphicsWindow)
+  name: GetBitmap(GraphicsWindow)
+  href: api/VBGraphics.BitmapImage.html#VBGraphics_BitmapImage_GetBitmap_VBGraphics_GraphicsWindow_
+  commentId: M:VBGraphics.BitmapImage.GetBitmap(VBGraphics.GraphicsWindow)
+  fullName: VBGraphics.BitmapImage.GetBitmap(VBGraphics.GraphicsWindow)
+  nameWithType: BitmapImage.GetBitmap(GraphicsWindow)
+- uid: VBGraphics.BitmapImage.GetBitmap(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32)
+  name: GetBitmap(GraphicsWindow, Int32, Int32, Int32, Int32)
+  href: api/VBGraphics.BitmapImage.html#VBGraphics_BitmapImage_GetBitmap_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:VBGraphics.BitmapImage.GetBitmap(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32)
+  fullName: VBGraphics.BitmapImage.GetBitmap(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Int32)
+  nameWithType: BitmapImage.GetBitmap(GraphicsWindow, Int32, Int32, Int32, Int32)
+- uid: VBGraphics.BitmapImage.GetBitmap*
+  name: GetBitmap
+  href: api/VBGraphics.BitmapImage.html#VBGraphics_BitmapImage_GetBitmap_
+  commentId: Overload:VBGraphics.BitmapImage.GetBitmap
+  fullName: VBGraphics.BitmapImage.GetBitmap
+  nameWithType: BitmapImage.GetBitmap
+- uid: VBGraphics.GraphicsForm
+  name: GraphicsForm
+  href: api/VBGraphics.GraphicsForm.html
+  commentId: T:VBGraphics.GraphicsForm
+  fullName: VBGraphics.GraphicsForm
+  nameWithType: GraphicsForm
+- uid: VBGraphics.GraphicsForm.#ctor
+  name: GraphicsForm()
+  href: api/VBGraphics.GraphicsForm.html#VBGraphics_GraphicsForm__ctor
+  commentId: M:VBGraphics.GraphicsForm.#ctor
+  fullName: VBGraphics.GraphicsForm.GraphicsForm()
+  nameWithType: GraphicsForm.GraphicsForm()
+- uid: VBGraphics.GraphicsForm.#ctor*
+  name: GraphicsForm
+  href: api/VBGraphics.GraphicsForm.html#VBGraphics_GraphicsForm__ctor_
+  commentId: Overload:VBGraphics.GraphicsForm.#ctor
+  fullName: VBGraphics.GraphicsForm.GraphicsForm
+  nameWithType: GraphicsForm.GraphicsForm
+- uid: VBGraphics.GraphicsWindow
+  name: GraphicsWindow
+  href: api/VBGraphics.GraphicsWindow.html
+  commentId: T:VBGraphics.GraphicsWindow
+  fullName: VBGraphics.GraphicsWindow
+  nameWithType: GraphicsWindow
+- uid: VBGraphics.GraphicsWindow.#ctor(System.Int32,System.Int32)
+  name: GraphicsWindow(Int32, Int32)
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow__ctor_System_Int32_System_Int32_
+  commentId: M:VBGraphics.GraphicsWindow.#ctor(System.Int32,System.Int32)
+  fullName: VBGraphics.GraphicsWindow.GraphicsWindow(System.Int32, System.Int32)
+  nameWithType: GraphicsWindow.GraphicsWindow(Int32, Int32)
+- uid: VBGraphics.GraphicsWindow.#ctor(System.Int32,System.Int32,System.Drawing.Color)
+  name: GraphicsWindow(Int32, Int32, Color)
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow__ctor_System_Int32_System_Int32_System_Drawing_Color_
+  commentId: M:VBGraphics.GraphicsWindow.#ctor(System.Int32,System.Int32,System.Drawing.Color)
+  fullName: VBGraphics.GraphicsWindow.GraphicsWindow(System.Int32, System.Int32, System.Drawing.Color)
+  nameWithType: GraphicsWindow.GraphicsWindow(Int32, Int32, Color)
+- uid: VBGraphics.GraphicsWindow.#ctor*
+  name: GraphicsWindow
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow__ctor_
+  commentId: Overload:VBGraphics.GraphicsWindow.#ctor
+  fullName: VBGraphics.GraphicsWindow.GraphicsWindow
+  nameWithType: GraphicsWindow.GraphicsWindow
+- uid: VBGraphics.GraphicsWindow.CanClose
+  name: CanClose
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_CanClose
+  commentId: P:VBGraphics.GraphicsWindow.CanClose
+  fullName: VBGraphics.GraphicsWindow.CanClose
+  nameWithType: GraphicsWindow.CanClose
+- uid: VBGraphics.GraphicsWindow.CanClose*
+  name: CanClose
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_CanClose_
+  commentId: Overload:VBGraphics.GraphicsWindow.CanClose
+  fullName: VBGraphics.GraphicsWindow.CanClose
+  nameWithType: GraphicsWindow.CanClose
+- uid: VBGraphics.GraphicsWindow.CaptureModifierKeys
+  name: CaptureModifierKeys
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_CaptureModifierKeys
+  commentId: P:VBGraphics.GraphicsWindow.CaptureModifierKeys
+  fullName: VBGraphics.GraphicsWindow.CaptureModifierKeys
+  nameWithType: GraphicsWindow.CaptureModifierKeys
+- uid: VBGraphics.GraphicsWindow.CaptureModifierKeys*
+  name: CaptureModifierKeys
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_CaptureModifierKeys_
+  commentId: Overload:VBGraphics.GraphicsWindow.CaptureModifierKeys
+  fullName: VBGraphics.GraphicsWindow.CaptureModifierKeys
+  nameWithType: GraphicsWindow.CaptureModifierKeys
+- uid: VBGraphics.GraphicsWindow.CreateGraphics
+  name: CreateGraphics()
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_CreateGraphics
+  commentId: M:VBGraphics.GraphicsWindow.CreateGraphics
+  fullName: VBGraphics.GraphicsWindow.CreateGraphics()
+  nameWithType: GraphicsWindow.CreateGraphics()
+- uid: VBGraphics.GraphicsWindow.CreateGraphics*
+  name: CreateGraphics
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_CreateGraphics_
+  commentId: Overload:VBGraphics.GraphicsWindow.CreateGraphics
+  fullName: VBGraphics.GraphicsWindow.CreateGraphics
+  nameWithType: GraphicsWindow.CreateGraphics
+- uid: VBGraphics.GraphicsWindow.CreateGraphicsWithSmoothing
+  name: CreateGraphicsWithSmoothing()
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_CreateGraphicsWithSmoothing
+  commentId: M:VBGraphics.GraphicsWindow.CreateGraphicsWithSmoothing
+  fullName: VBGraphics.GraphicsWindow.CreateGraphicsWithSmoothing()
+  nameWithType: GraphicsWindow.CreateGraphicsWithSmoothing()
+- uid: VBGraphics.GraphicsWindow.CreateGraphicsWithSmoothing*
+  name: CreateGraphicsWithSmoothing
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_CreateGraphicsWithSmoothing_
+  commentId: Overload:VBGraphics.GraphicsWindow.CreateGraphicsWithSmoothing
+  fullName: VBGraphics.GraphicsWindow.CreateGraphicsWithSmoothing
+  nameWithType: GraphicsWindow.CreateGraphicsWithSmoothing
+- uid: VBGraphics.GraphicsWindow.Dispose
+  name: IDisposable.Dispose()
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_Dispose
+  commentId: M:VBGraphics.GraphicsWindow.Dispose
+  name.vb: Dispose()
+  fullName: VBGraphics.GraphicsWindow.System.IDisposable.Dispose()
+  fullName.vb: VBGraphics.GraphicsWindow.Dispose()
+  nameWithType: GraphicsWindow.IDisposable.Dispose()
+  nameWithType.vb: GraphicsWindow.Dispose()
+- uid: VBGraphics.GraphicsWindow.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_Dispose_System_Boolean_
+  commentId: M:VBGraphics.GraphicsWindow.Dispose(System.Boolean)
+  fullName: VBGraphics.GraphicsWindow.Dispose(System.Boolean)
+  nameWithType: GraphicsWindow.Dispose(Boolean)
+- uid: VBGraphics.GraphicsWindow.Dispose*
+  name: IDisposable.Dispose
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_Dispose_
+  commentId: Overload:VBGraphics.GraphicsWindow.Dispose
+  name.vb: Dispose
+  fullName: VBGraphics.GraphicsWindow.System.IDisposable.Dispose
+  fullName.vb: VBGraphics.GraphicsWindow.Dispose
+  nameWithType: GraphicsWindow.IDisposable.Dispose
+  nameWithType.vb: GraphicsWindow.Dispose
+- uid: VBGraphics.GraphicsWindow.EmptyKeys
+  name: EmptyKeys()
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_EmptyKeys
+  commentId: M:VBGraphics.GraphicsWindow.EmptyKeys
+  fullName: VBGraphics.GraphicsWindow.EmptyKeys()
+  nameWithType: GraphicsWindow.EmptyKeys()
+- uid: VBGraphics.GraphicsWindow.EmptyKeys*
+  name: EmptyKeys
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_EmptyKeys_
+  commentId: Overload:VBGraphics.GraphicsWindow.EmptyKeys
+  fullName: VBGraphics.GraphicsWindow.EmptyKeys
+  nameWithType: GraphicsWindow.EmptyKeys
+- uid: VBGraphics.GraphicsWindow.EndProgramOnClose
+  name: EndProgramOnClose
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_EndProgramOnClose
+  commentId: P:VBGraphics.GraphicsWindow.EndProgramOnClose
+  fullName: VBGraphics.GraphicsWindow.EndProgramOnClose
+  nameWithType: GraphicsWindow.EndProgramOnClose
+- uid: VBGraphics.GraphicsWindow.EndProgramOnClose*
+  name: EndProgramOnClose
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_EndProgramOnClose_
+  commentId: Overload:VBGraphics.GraphicsWindow.EndProgramOnClose
+  fullName: VBGraphics.GraphicsWindow.EndProgramOnClose
+  nameWithType: GraphicsWindow.EndProgramOnClose
+- uid: VBGraphics.GraphicsWindow.Form
+  name: Form
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_Form
+  commentId: P:VBGraphics.GraphicsWindow.Form
+  fullName: VBGraphics.GraphicsWindow.Form
+  nameWithType: GraphicsWindow.Form
+- uid: VBGraphics.GraphicsWindow.Form*
+  name: Form
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_Form_
+  commentId: Overload:VBGraphics.GraphicsWindow.Form
+  fullName: VBGraphics.GraphicsWindow.Form
+  nameWithType: GraphicsWindow.Form
+- uid: VBGraphics.GraphicsWindow.Image
+  name: Image
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_Image
+  commentId: P:VBGraphics.GraphicsWindow.Image
+  fullName: VBGraphics.GraphicsWindow.Image
+  nameWithType: GraphicsWindow.Image
+- uid: VBGraphics.GraphicsWindow.Image*
+  name: Image
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_Image_
+  commentId: Overload:VBGraphics.GraphicsWindow.Image
+  fullName: VBGraphics.GraphicsWindow.Image
+  nameWithType: GraphicsWindow.Image
+- uid: VBGraphics.GraphicsWindow.Invalidate
+  name: Invalidate()
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_Invalidate
+  commentId: M:VBGraphics.GraphicsWindow.Invalidate
+  fullName: VBGraphics.GraphicsWindow.Invalidate()
+  nameWithType: GraphicsWindow.Invalidate()
+- uid: VBGraphics.GraphicsWindow.Invalidate*
+  name: Invalidate
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_Invalidate_
+  commentId: Overload:VBGraphics.GraphicsWindow.Invalidate
+  fullName: VBGraphics.GraphicsWindow.Invalidate
+  nameWithType: GraphicsWindow.Invalidate
+- uid: VBGraphics.GraphicsWindow.IsLiving
+  name: IsLiving
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_IsLiving
+  commentId: P:VBGraphics.GraphicsWindow.IsLiving
+  fullName: VBGraphics.GraphicsWindow.IsLiving
+  nameWithType: GraphicsWindow.IsLiving
+- uid: VBGraphics.GraphicsWindow.IsLiving*
+  name: IsLiving
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_IsLiving_
+  commentId: Overload:VBGraphics.GraphicsWindow.IsLiving
+  fullName: VBGraphics.GraphicsWindow.IsLiving
+  nameWithType: GraphicsWindow.IsLiving
+- uid: VBGraphics.GraphicsWindow.KeyAvailable
+  name: KeyAvailable
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_KeyAvailable
+  commentId: P:VBGraphics.GraphicsWindow.KeyAvailable
+  fullName: VBGraphics.GraphicsWindow.KeyAvailable
+  nameWithType: GraphicsWindow.KeyAvailable
+- uid: VBGraphics.GraphicsWindow.KeyAvailable*
+  name: KeyAvailable
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_KeyAvailable_
+  commentId: Overload:VBGraphics.GraphicsWindow.KeyAvailable
+  fullName: VBGraphics.GraphicsWindow.KeyAvailable
+  nameWithType: GraphicsWindow.KeyAvailable
+- uid: VBGraphics.GraphicsWindow.ReadKey
+  name: ReadKey()
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_ReadKey
+  commentId: M:VBGraphics.GraphicsWindow.ReadKey
+  fullName: VBGraphics.GraphicsWindow.ReadKey()
+  nameWithType: GraphicsWindow.ReadKey()
+- uid: VBGraphics.GraphicsWindow.ReadKey*
+  name: ReadKey
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_ReadKey_
+  commentId: Overload:VBGraphics.GraphicsWindow.ReadKey
+  fullName: VBGraphics.GraphicsWindow.ReadKey
+  nameWithType: GraphicsWindow.ReadKey
+- uid: VBGraphics.GraphicsWindow.ReadKeyChar
+  name: ReadKeyChar()
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_ReadKeyChar
+  commentId: M:VBGraphics.GraphicsWindow.ReadKeyChar
+  fullName: VBGraphics.GraphicsWindow.ReadKeyChar()
+  nameWithType: GraphicsWindow.ReadKeyChar()
+- uid: VBGraphics.GraphicsWindow.ReadKeyChar*
+  name: ReadKeyChar
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_ReadKeyChar_
+  commentId: Overload:VBGraphics.GraphicsWindow.ReadKeyChar
+  fullName: VBGraphics.GraphicsWindow.ReadKeyChar
+  nameWithType: GraphicsWindow.ReadKeyChar
+- uid: VBGraphics.GraphicsWindow.ReadKeyCharIfAvailable
+  name: ReadKeyCharIfAvailable()
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_ReadKeyCharIfAvailable
+  commentId: M:VBGraphics.GraphicsWindow.ReadKeyCharIfAvailable
+  fullName: VBGraphics.GraphicsWindow.ReadKeyCharIfAvailable()
+  nameWithType: GraphicsWindow.ReadKeyCharIfAvailable()
+- uid: VBGraphics.GraphicsWindow.ReadKeyCharIfAvailable*
+  name: ReadKeyCharIfAvailable
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_ReadKeyCharIfAvailable_
+  commentId: Overload:VBGraphics.GraphicsWindow.ReadKeyCharIfAvailable
+  fullName: VBGraphics.GraphicsWindow.ReadKeyCharIfAvailable
+  nameWithType: GraphicsWindow.ReadKeyCharIfAvailable
+- uid: VBGraphics.GraphicsWindow.ReadKeyIfAvailable
+  name: ReadKeyIfAvailable()
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_ReadKeyIfAvailable
+  commentId: M:VBGraphics.GraphicsWindow.ReadKeyIfAvailable
+  fullName: VBGraphics.GraphicsWindow.ReadKeyIfAvailable()
+  nameWithType: GraphicsWindow.ReadKeyIfAvailable()
+- uid: VBGraphics.GraphicsWindow.ReadKeyIfAvailable*
+  name: ReadKeyIfAvailable
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_ReadKeyIfAvailable_
+  commentId: Overload:VBGraphics.GraphicsWindow.ReadKeyIfAvailable
+  fullName: VBGraphics.GraphicsWindow.ReadKeyIfAvailable
+  nameWithType: GraphicsWindow.ReadKeyIfAvailable
+- uid: VBGraphics.GraphicsWindow.ReadKeyInfo
+  name: ReadKeyInfo()
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_ReadKeyInfo
+  commentId: M:VBGraphics.GraphicsWindow.ReadKeyInfo
+  fullName: VBGraphics.GraphicsWindow.ReadKeyInfo()
+  nameWithType: GraphicsWindow.ReadKeyInfo()
+- uid: VBGraphics.GraphicsWindow.ReadKeyInfo*
+  name: ReadKeyInfo
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_ReadKeyInfo_
+  commentId: Overload:VBGraphics.GraphicsWindow.ReadKeyInfo
+  fullName: VBGraphics.GraphicsWindow.ReadKeyInfo
+  nameWithType: GraphicsWindow.ReadKeyInfo
+- uid: VBGraphics.GraphicsWindow.ReadKeyInfoIfAvailable
+  name: ReadKeyInfoIfAvailable()
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_ReadKeyInfoIfAvailable
+  commentId: M:VBGraphics.GraphicsWindow.ReadKeyInfoIfAvailable
+  fullName: VBGraphics.GraphicsWindow.ReadKeyInfoIfAvailable()
+  nameWithType: GraphicsWindow.ReadKeyInfoIfAvailable()
+- uid: VBGraphics.GraphicsWindow.ReadKeyInfoIfAvailable*
+  name: ReadKeyInfoIfAvailable
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_ReadKeyInfoIfAvailable_
+  commentId: Overload:VBGraphics.GraphicsWindow.ReadKeyInfoIfAvailable
+  fullName: VBGraphics.GraphicsWindow.ReadKeyInfoIfAvailable
+  nameWithType: GraphicsWindow.ReadKeyInfoIfAvailable
+- uid: VBGraphics.GraphicsWindow.WaitUntilKeyAvailable
+  name: WaitUntilKeyAvailable()
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_WaitUntilKeyAvailable
+  commentId: M:VBGraphics.GraphicsWindow.WaitUntilKeyAvailable
+  fullName: VBGraphics.GraphicsWindow.WaitUntilKeyAvailable()
+  nameWithType: GraphicsWindow.WaitUntilKeyAvailable()
+- uid: VBGraphics.GraphicsWindow.WaitUntilKeyAvailable*
+  name: WaitUntilKeyAvailable
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_WaitUntilKeyAvailable_
+  commentId: Overload:VBGraphics.GraphicsWindow.WaitUntilKeyAvailable
+  fullName: VBGraphics.GraphicsWindow.WaitUntilKeyAvailable
+  nameWithType: GraphicsWindow.WaitUntilKeyAvailable
+- uid: VBGraphics.GraphicsWindow.WindowClosed
+  name: WindowClosed
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_WindowClosed
+  commentId: E:VBGraphics.GraphicsWindow.WindowClosed
+  fullName: VBGraphics.GraphicsWindow.WindowClosed
+  nameWithType: GraphicsWindow.WindowClosed
+- uid: VBGraphics.GraphicsWindow.WindowClosing
+  name: WindowClosing
+  href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_WindowClosing
+  commentId: E:VBGraphics.GraphicsWindow.WindowClosing
+  fullName: VBGraphics.GraphicsWindow.WindowClosing
+  nameWithType: GraphicsWindow.WindowClosing
+- uid: VBGraphics.KeyInfo
+  name: KeyInfo
+  href: api/VBGraphics.KeyInfo.html
+  commentId: T:VBGraphics.KeyInfo
+  fullName: VBGraphics.KeyInfo
+  nameWithType: KeyInfo
+- uid: VBGraphics.KeyInfo.#ctor(System.Windows.Forms.KeyEventArgs,System.Char)
+  name: KeyInfo(KeyEventArgs, Char)
+  href: api/VBGraphics.KeyInfo.html#VBGraphics_KeyInfo__ctor_System_Windows_Forms_KeyEventArgs_System_Char_
+  commentId: M:VBGraphics.KeyInfo.#ctor(System.Windows.Forms.KeyEventArgs,System.Char)
+  fullName: VBGraphics.KeyInfo.KeyInfo(System.Windows.Forms.KeyEventArgs, System.Char)
+  nameWithType: KeyInfo.KeyInfo(KeyEventArgs, Char)
+- uid: VBGraphics.KeyInfo.#ctor*
+  name: KeyInfo
+  href: api/VBGraphics.KeyInfo.html#VBGraphics_KeyInfo__ctor_
+  commentId: Overload:VBGraphics.KeyInfo.#ctor
+  fullName: VBGraphics.KeyInfo.KeyInfo
+  nameWithType: KeyInfo.KeyInfo
+- uid: VBGraphics.KeyInfo.Key
+  name: Key
+  href: api/VBGraphics.KeyInfo.html#VBGraphics_KeyInfo_Key
+  commentId: P:VBGraphics.KeyInfo.Key
+  fullName: VBGraphics.KeyInfo.Key
+  nameWithType: KeyInfo.Key
+- uid: VBGraphics.KeyInfo.Key*
+  name: Key
+  href: api/VBGraphics.KeyInfo.html#VBGraphics_KeyInfo_Key_
+  commentId: Overload:VBGraphics.KeyInfo.Key
+  fullName: VBGraphics.KeyInfo.Key
+  nameWithType: KeyInfo.Key
+- uid: VBGraphics.KeyInfo.KeyChar
+  name: KeyChar
+  href: api/VBGraphics.KeyInfo.html#VBGraphics_KeyInfo_KeyChar
+  commentId: P:VBGraphics.KeyInfo.KeyChar
+  fullName: VBGraphics.KeyInfo.KeyChar
+  nameWithType: KeyInfo.KeyChar
+- uid: VBGraphics.KeyInfo.KeyChar*
+  name: KeyChar
+  href: api/VBGraphics.KeyInfo.html#VBGraphics_KeyInfo_KeyChar_
+  commentId: Overload:VBGraphics.KeyInfo.KeyChar
+  fullName: VBGraphics.KeyInfo.KeyChar
+  nameWithType: KeyInfo.KeyChar
+- uid: VBGraphics.Shapes
+  name: Shapes
+  href: api/VBGraphics.Shapes.html
+  commentId: T:VBGraphics.Shapes
+  fullName: VBGraphics.Shapes
+  nameWithType: Shapes
+- uid: VBGraphics.Shapes.Clear(VBGraphics.GraphicsWindow,System.Drawing.Color)
+  name: Clear(GraphicsWindow, Color)
+  href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_Clear_VBGraphics_GraphicsWindow_System_Drawing_Color_
+  commentId: M:VBGraphics.Shapes.Clear(VBGraphics.GraphicsWindow,System.Drawing.Color)
+  fullName: VBGraphics.Shapes.Clear(VBGraphics.GraphicsWindow, System.Drawing.Color)
+  nameWithType: Shapes.Clear(GraphicsWindow, Color)
+- uid: VBGraphics.Shapes.Clear*
+  name: Clear
+  href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_Clear_
+  commentId: Overload:VBGraphics.Shapes.Clear
+  fullName: VBGraphics.Shapes.Clear
+  nameWithType: Shapes.Clear
+- uid: VBGraphics.Shapes.DrawEllipse(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Drawing.Color,System.Single)
+  name: DrawEllipse(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable<Color>, Color, Single)
+  href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawEllipse_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Drawing_Color_System_Single_
+  commentId: M:VBGraphics.Shapes.DrawEllipse(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Drawing.Color,System.Single)
+  name.vb: DrawEllipse(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable(Of Color), Color, Single)
+  fullName: VBGraphics.Shapes.DrawEllipse(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Int32, System.Nullable<System.Drawing.Color>, System.Drawing.Color, System.Single)
+  fullName.vb: VBGraphics.Shapes.DrawEllipse(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Int32, System.Nullable(Of System.Drawing.Color), System.Drawing.Color, System.Single)
+  nameWithType: Shapes.DrawEllipse(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable<Color>, Color, Single)
+  nameWithType.vb: Shapes.DrawEllipse(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable(Of Color), Color, Single)
+- uid: VBGraphics.Shapes.DrawEllipse(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color})
+  name: DrawEllipse(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable<Color>, Nullable<Color>)
+  href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawEllipse_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__
+  commentId: M:VBGraphics.Shapes.DrawEllipse(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color})
+  name.vb: DrawEllipse(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable(Of Color), Nullable(Of Color))
+  fullName: VBGraphics.Shapes.DrawEllipse(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Int32, System.Nullable<System.Drawing.Color>, System.Nullable<System.Drawing.Color>)
+  fullName.vb: VBGraphics.Shapes.DrawEllipse(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Int32, System.Nullable(Of System.Drawing.Color), System.Nullable(Of System.Drawing.Color))
+  nameWithType: Shapes.DrawEllipse(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable<Color>, Nullable<Color>)
+  nameWithType.vb: Shapes.DrawEllipse(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable(Of Color), Nullable(Of Color))
+- uid: VBGraphics.Shapes.DrawEllipse*
+  name: DrawEllipse
+  href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawEllipse_
+  commentId: Overload:VBGraphics.Shapes.DrawEllipse
+  fullName: VBGraphics.Shapes.DrawEllipse
+  nameWithType: Shapes.DrawEllipse
+- uid: VBGraphics.Shapes.DrawEllipseWithSmoothing(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Drawing.Color,System.Single)
+  name: DrawEllipseWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable<Color>, Color, Single)
+  href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawEllipseWithSmoothing_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Drawing_Color_System_Single_
+  commentId: M:VBGraphics.Shapes.DrawEllipseWithSmoothing(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Drawing.Color,System.Single)
+  name.vb: DrawEllipseWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable(Of Color), Color, Single)
+  fullName: VBGraphics.Shapes.DrawEllipseWithSmoothing(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Int32, System.Nullable<System.Drawing.Color>, System.Drawing.Color, System.Single)
+  fullName.vb: VBGraphics.Shapes.DrawEllipseWithSmoothing(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Int32, System.Nullable(Of System.Drawing.Color), System.Drawing.Color, System.Single)
+  nameWithType: Shapes.DrawEllipseWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable<Color>, Color, Single)
+  nameWithType.vb: Shapes.DrawEllipseWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable(Of Color), Color, Single)
+- uid: VBGraphics.Shapes.DrawEllipseWithSmoothing(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color})
+  name: DrawEllipseWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable<Color>, Nullable<Color>)
+  href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawEllipseWithSmoothing_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__
+  commentId: M:VBGraphics.Shapes.DrawEllipseWithSmoothing(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color})
+  name.vb: DrawEllipseWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable(Of Color), Nullable(Of Color))
+  fullName: VBGraphics.Shapes.DrawEllipseWithSmoothing(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Int32, System.Nullable<System.Drawing.Color>, System.Nullable<System.Drawing.Color>)
+  fullName.vb: VBGraphics.Shapes.DrawEllipseWithSmoothing(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Int32, System.Nullable(Of System.Drawing.Color), System.Nullable(Of System.Drawing.Color))
+  nameWithType: Shapes.DrawEllipseWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable<Color>, Nullable<Color>)
+  nameWithType.vb: Shapes.DrawEllipseWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable(Of Color), Nullable(Of Color))
+- uid: VBGraphics.Shapes.DrawEllipseWithSmoothing*
+  name: DrawEllipseWithSmoothing
+  href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawEllipseWithSmoothing_
+  commentId: Overload:VBGraphics.Shapes.DrawEllipseWithSmoothing
+  fullName: VBGraphics.Shapes.DrawEllipseWithSmoothing
+  nameWithType: Shapes.DrawEllipseWithSmoothing
+- uid: VBGraphics.Shapes.DrawLine(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color)
+  name: DrawLine(GraphicsWindow, Int32, Int32, Int32, Int32, Color)
+  href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawLine_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Drawing_Color_
+  commentId: M:VBGraphics.Shapes.DrawLine(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color)
+  fullName: VBGraphics.Shapes.DrawLine(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Int32, System.Drawing.Color)
+  nameWithType: Shapes.DrawLine(GraphicsWindow, Int32, Int32, Int32, Int32, Color)
+- uid: VBGraphics.Shapes.DrawLine(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Single)
+  name: DrawLine(GraphicsWindow, Int32, Int32, Int32, Int32, Color, Single)
+  href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawLine_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Drawing_Color_System_Single_
+  commentId: M:VBGraphics.Shapes.DrawLine(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Single)
+  fullName: VBGraphics.Shapes.DrawLine(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Int32, System.Drawing.Color, System.Single)
+  nameWithType: Shapes.DrawLine(GraphicsWindow, Int32, Int32, Int32, Int32, Color, Single)
+- uid: VBGraphics.Shapes.DrawLine*
+  name: DrawLine
+  href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawLine_
+  commentId: Overload:VBGraphics.Shapes.DrawLine
+  fullName: VBGraphics.Shapes.DrawLine
+  nameWithType: Shapes.DrawLine
+- uid: VBGraphics.Shapes.DrawLineWithSmoothing(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color)
+  name: DrawLineWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Color)
+  href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawLineWithSmoothing_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Drawing_Color_
+  commentId: M:VBGraphics.Shapes.DrawLineWithSmoothing(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color)
+  fullName: VBGraphics.Shapes.DrawLineWithSmoothing(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Int32, System.Drawing.Color)
+  nameWithType: Shapes.DrawLineWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Color)
+- uid: VBGraphics.Shapes.DrawLineWithSmoothing(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Single)
+  name: DrawLineWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Color, Single)
+  href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawLineWithSmoothing_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Drawing_Color_System_Single_
+  commentId: M:VBGraphics.Shapes.DrawLineWithSmoothing(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Single)
+  fullName: VBGraphics.Shapes.DrawLineWithSmoothing(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Int32, System.Drawing.Color, System.Single)
+  nameWithType: Shapes.DrawLineWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Color, Single)
+- uid: VBGraphics.Shapes.DrawLineWithSmoothing*
+  name: DrawLineWithSmoothing
+  href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawLineWithSmoothing_
+  commentId: Overload:VBGraphics.Shapes.DrawLineWithSmoothing
+  fullName: VBGraphics.Shapes.DrawLineWithSmoothing
+  nameWithType: Shapes.DrawLineWithSmoothing
+- uid: VBGraphics.Shapes.DrawRectangle(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Drawing.Color,System.Single)
+  name: DrawRectangle(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable<Color>, Color, Single)
+  href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawRectangle_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Drawing_Color_System_Single_
+  commentId: M:VBGraphics.Shapes.DrawRectangle(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Drawing.Color,System.Single)
+  name.vb: DrawRectangle(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable(Of Color), Color, Single)
+  fullName: VBGraphics.Shapes.DrawRectangle(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Int32, System.Nullable<System.Drawing.Color>, System.Drawing.Color, System.Single)
+  fullName.vb: VBGraphics.Shapes.DrawRectangle(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Int32, System.Nullable(Of System.Drawing.Color), System.Drawing.Color, System.Single)
+  nameWithType: Shapes.DrawRectangle(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable<Color>, Color, Single)
+  nameWithType.vb: Shapes.DrawRectangle(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable(Of Color), Color, Single)
+- uid: VBGraphics.Shapes.DrawRectangle(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color})
+  name: DrawRectangle(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable<Color>, Nullable<Color>)
+  href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawRectangle_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__
+  commentId: M:VBGraphics.Shapes.DrawRectangle(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color})
+  name.vb: DrawRectangle(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable(Of Color), Nullable(Of Color))
+  fullName: VBGraphics.Shapes.DrawRectangle(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Int32, System.Nullable<System.Drawing.Color>, System.Nullable<System.Drawing.Color>)
+  fullName.vb: VBGraphics.Shapes.DrawRectangle(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Int32, System.Nullable(Of System.Drawing.Color), System.Nullable(Of System.Drawing.Color))
+  nameWithType: Shapes.DrawRectangle(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable<Color>, Nullable<Color>)
+  nameWithType.vb: Shapes.DrawRectangle(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable(Of Color), Nullable(Of Color))
+- uid: VBGraphics.Shapes.DrawRectangle*
+  name: DrawRectangle
+  href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawRectangle_
+  commentId: Overload:VBGraphics.Shapes.DrawRectangle
+  fullName: VBGraphics.Shapes.DrawRectangle
+  nameWithType: Shapes.DrawRectangle
+- uid: VBGraphics.Shapes.DrawRectangleWithSmoothing(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Drawing.Color,System.Single)
+  name: DrawRectangleWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable<Color>, Color, Single)
+  href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawRectangleWithSmoothing_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Drawing_Color_System_Single_
+  commentId: M:VBGraphics.Shapes.DrawRectangleWithSmoothing(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Drawing.Color,System.Single)
+  name.vb: DrawRectangleWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable(Of Color), Color, Single)
+  fullName: VBGraphics.Shapes.DrawRectangleWithSmoothing(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Int32, System.Nullable<System.Drawing.Color>, System.Drawing.Color, System.Single)
+  fullName.vb: VBGraphics.Shapes.DrawRectangleWithSmoothing(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Int32, System.Nullable(Of System.Drawing.Color), System.Drawing.Color, System.Single)
+  nameWithType: Shapes.DrawRectangleWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable<Color>, Color, Single)
+  nameWithType.vb: Shapes.DrawRectangleWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable(Of Color), Color, Single)
+- uid: VBGraphics.Shapes.DrawRectangleWithSmoothing(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color})
+  name: DrawRectangleWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable<Color>, Nullable<Color>)
+  href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawRectangleWithSmoothing_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__
+  commentId: M:VBGraphics.Shapes.DrawRectangleWithSmoothing(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color})
+  name.vb: DrawRectangleWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable(Of Color), Nullable(Of Color))
+  fullName: VBGraphics.Shapes.DrawRectangleWithSmoothing(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Int32, System.Nullable<System.Drawing.Color>, System.Nullable<System.Drawing.Color>)
+  fullName.vb: VBGraphics.Shapes.DrawRectangleWithSmoothing(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Int32, System.Nullable(Of System.Drawing.Color), System.Nullable(Of System.Drawing.Color))
+  nameWithType: Shapes.DrawRectangleWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable<Color>, Nullable<Color>)
+  nameWithType.vb: Shapes.DrawRectangleWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable(Of Color), Nullable(Of Color))
+- uid: VBGraphics.Shapes.DrawRectangleWithSmoothing*
+  name: DrawRectangleWithSmoothing
+  href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawRectangleWithSmoothing_
+  commentId: Overload:VBGraphics.Shapes.DrawRectangleWithSmoothing
+  fullName: VBGraphics.Shapes.DrawRectangleWithSmoothing
+  nameWithType: Shapes.DrawRectangleWithSmoothing
+- uid: VBGraphics.Text
+  name: Text
+  href: api/VBGraphics.Text.html
+  commentId: T:VBGraphics.Text
+  fullName: VBGraphics.Text
+  nameWithType: Text
+- uid: VBGraphics.Text.DrawText(VBGraphics.GraphicsWindow,System.String,System.Int32,System.Int32,System.Drawing.Color,System.Drawing.Font)
+  name: DrawText(GraphicsWindow, String, Int32, Int32, Color, Font)
+  href: api/VBGraphics.Text.html#VBGraphics_Text_DrawText_VBGraphics_GraphicsWindow_System_String_System_Int32_System_Int32_System_Drawing_Color_System_Drawing_Font_
+  commentId: M:VBGraphics.Text.DrawText(VBGraphics.GraphicsWindow,System.String,System.Int32,System.Int32,System.Drawing.Color,System.Drawing.Font)
+  fullName: VBGraphics.Text.DrawText(VBGraphics.GraphicsWindow, System.String, System.Int32, System.Int32, System.Drawing.Color, System.Drawing.Font)
+  nameWithType: Text.DrawText(GraphicsWindow, String, Int32, Int32, Color, Font)
+- uid: VBGraphics.Text.DrawText(VBGraphics.GraphicsWindow,System.String,System.Int32,System.Int32,System.Drawing.Color,System.String,System.Single,System.Drawing.FontStyle)
+  name: DrawText(GraphicsWindow, String, Int32, Int32, Color, String, Single, FontStyle)
+  href: api/VBGraphics.Text.html#VBGraphics_Text_DrawText_VBGraphics_GraphicsWindow_System_String_System_Int32_System_Int32_System_Drawing_Color_System_String_System_Single_System_Drawing_FontStyle_
+  commentId: M:VBGraphics.Text.DrawText(VBGraphics.GraphicsWindow,System.String,System.Int32,System.Int32,System.Drawing.Color,System.String,System.Single,System.Drawing.FontStyle)
+  fullName: VBGraphics.Text.DrawText(VBGraphics.GraphicsWindow, System.String, System.Int32, System.Int32, System.Drawing.Color, System.String, System.Single, System.Drawing.FontStyle)
+  nameWithType: Text.DrawText(GraphicsWindow, String, Int32, Int32, Color, String, Single, FontStyle)
+- uid: VBGraphics.Text.DrawText*
+  name: DrawText
+  href: api/VBGraphics.Text.html#VBGraphics_Text_DrawText_
+  commentId: Overload:VBGraphics.Text.DrawText
+  fullName: VBGraphics.Text.DrawText
+  nameWithType: Text.DrawText
+- uid: VBGraphics.Text.DrawTextInRectangle(VBGraphics.GraphicsWindow,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Drawing.Font,System.Windows.Forms.TextFormatFlags)
+  name: DrawTextInRectangle(GraphicsWindow, String, Int32, Int32, Int32, Int32, Color, Font, TextFormatFlags)
+  href: api/VBGraphics.Text.html#VBGraphics_Text_DrawTextInRectangle_VBGraphics_GraphicsWindow_System_String_System_Int32_System_Int32_System_Int32_System_Int32_System_Drawing_Color_System_Drawing_Font_System_Windows_Forms_TextFormatFlags_
+  commentId: M:VBGraphics.Text.DrawTextInRectangle(VBGraphics.GraphicsWindow,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Drawing.Font,System.Windows.Forms.TextFormatFlags)
+  fullName: VBGraphics.Text.DrawTextInRectangle(VBGraphics.GraphicsWindow, System.String, System.Int32, System.Int32, System.Int32, System.Int32, System.Drawing.Color, System.Drawing.Font, System.Windows.Forms.TextFormatFlags)
+  nameWithType: Text.DrawTextInRectangle(GraphicsWindow, String, Int32, Int32, Int32, Int32, Color, Font, TextFormatFlags)
+- uid: VBGraphics.Text.DrawTextInRectangle(VBGraphics.GraphicsWindow,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.String,System.Single,System.Drawing.FontStyle,System.Windows.Forms.TextFormatFlags)
+  name: DrawTextInRectangle(GraphicsWindow, String, Int32, Int32, Int32, Int32, Color, String, Single, FontStyle, TextFormatFlags)
+  href: api/VBGraphics.Text.html#VBGraphics_Text_DrawTextInRectangle_VBGraphics_GraphicsWindow_System_String_System_Int32_System_Int32_System_Int32_System_Int32_System_Drawing_Color_System_String_System_Single_System_Drawing_FontStyle_System_Windows_Forms_TextFormatFlags_
+  commentId: M:VBGraphics.Text.DrawTextInRectangle(VBGraphics.GraphicsWindow,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.String,System.Single,System.Drawing.FontStyle,System.Windows.Forms.TextFormatFlags)
+  fullName: VBGraphics.Text.DrawTextInRectangle(VBGraphics.GraphicsWindow, System.String, System.Int32, System.Int32, System.Int32, System.Int32, System.Drawing.Color, System.String, System.Single, System.Drawing.FontStyle, System.Windows.Forms.TextFormatFlags)
+  nameWithType: Text.DrawTextInRectangle(GraphicsWindow, String, Int32, Int32, Int32, Int32, Color, String, Single, FontStyle, TextFormatFlags)
+- uid: VBGraphics.Text.DrawTextInRectangle*
+  name: DrawTextInRectangle
+  href: api/VBGraphics.Text.html#VBGraphics_Text_DrawTextInRectangle_
+  commentId: Overload:VBGraphics.Text.DrawTextInRectangle
+  fullName: VBGraphics.Text.DrawTextInRectangle
+  nameWithType: Text.DrawTextInRectangle
+- uid: VBGraphics.Text.ReadLine(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Drawing.Color,System.String,System.Single,System.Drawing.FontStyle,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color},System.Windows.Forms.TextFormatFlags)
+  name: ReadLine(GraphicsWindow, Int32, Int32, Int32, Color, Color, String, Single, FontStyle, Nullable<Color>, Nullable<Color>, TextFormatFlags)
+  href: api/VBGraphics.Text.html#VBGraphics_Text_ReadLine_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Drawing_Color_System_Drawing_Color_System_String_System_Single_System_Drawing_FontStyle_System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__System_Windows_Forms_TextFormatFlags_
+  commentId: M:VBGraphics.Text.ReadLine(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Drawing.Color,System.String,System.Single,System.Drawing.FontStyle,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color},System.Windows.Forms.TextFormatFlags)
+  name.vb: ReadLine(GraphicsWindow, Int32, Int32, Int32, Color, Color, String, Single, FontStyle, Nullable(Of Color), Nullable(Of Color), TextFormatFlags)
+  fullName: VBGraphics.Text.ReadLine(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Drawing.Color, System.Drawing.Color, System.String, System.Single, System.Drawing.FontStyle, System.Nullable<System.Drawing.Color>, System.Nullable<System.Drawing.Color>, System.Windows.Forms.TextFormatFlags)
+  fullName.vb: VBGraphics.Text.ReadLine(VBGraphics.GraphicsWindow, System.Int32, System.Int32, System.Int32, System.Drawing.Color, System.Drawing.Color, System.String, System.Single, System.Drawing.FontStyle, System.Nullable(Of System.Drawing.Color), System.Nullable(Of System.Drawing.Color), System.Windows.Forms.TextFormatFlags)
+  nameWithType: Text.ReadLine(GraphicsWindow, Int32, Int32, Int32, Color, Color, String, Single, FontStyle, Nullable<Color>, Nullable<Color>, TextFormatFlags)
+  nameWithType.vb: Text.ReadLine(GraphicsWindow, Int32, Int32, Int32, Color, Color, String, Single, FontStyle, Nullable(Of Color), Nullable(Of Color), TextFormatFlags)
+- uid: VBGraphics.Text.ReadLine*
+  name: ReadLine
+  href: api/VBGraphics.Text.html#VBGraphics_Text_ReadLine_
+  commentId: Overload:VBGraphics.Text.ReadLine
+  fullName: VBGraphics.Text.ReadLine
+  nameWithType: Text.ReadLine
