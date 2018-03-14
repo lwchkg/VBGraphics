@@ -8,7 +8,7 @@ simple games in the QBasic way.
 
 Example project: [Nibbles for VBGraphics](https://github.com/lwchkg/Nibbles_VBGraphics)
 
-See [documentation](https://lwchkg.github.io/VBGraphics) for API documentation
+See [documentation](https://lwchkg.github.io/VBGraphics/) for API documentation
 and more tutorials.
 
 ## Features
