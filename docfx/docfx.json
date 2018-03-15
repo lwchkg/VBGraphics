@@ -5,7 +5,7 @@
         {
           "files": [ "VBGraphics/**/*.vbproj" ],
           "exclude": [ "**/bin/**", "**/obj/**" ],
-          "src": "."
+          "src": ".."
         }
       ],
       "dest": "obj/api"
@@ -32,7 +32,7 @@
       "_appTitle": "VBGraphics documentation",
       "_enableSearch": true
     },
-    "dest": "docs",
+    "dest": "../docs",
     "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ]
   }
 }
