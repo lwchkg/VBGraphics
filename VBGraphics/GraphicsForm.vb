@@ -1,7 +1,7 @@
 ﻿Option Strict On
 
 Imports System.Windows.Forms
-Public Class GraphicsForm
+Friend Class GraphicsForm
     Inherits Form
 
     Public Sub New()
