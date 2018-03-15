@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "D:/Documents/pCloud Sync/github/VBGraphics",
+  "source_base_path": "D:/Documents/pCloud Sync/github/VBGraphics/docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -14,23 +14,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "README.md",
-      "output": {
-        ".html": {
-          "relative_path": "README.html",
-          "hash": "osgpLHZd6t9ZT/1wNVhG8g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "EcCR86AQ24K0lNXYqrzdDA=="
+          "hash": "2gqniUV1XkaPXWYcFj/Cgg=="
         }
       },
       "is_incremental": false,
@@ -152,17 +140,17 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build"
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
