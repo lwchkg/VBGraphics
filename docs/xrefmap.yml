@@ -79,24 +79,6 @@ references:
   commentId: Overload:VBGraphics.BitmapImage.GetBitmap
   fullName: VBGraphics.BitmapImage.GetBitmap
   nameWithType: BitmapImage.GetBitmap
-- uid: VBGraphics.GraphicsForm
-  name: GraphicsForm
-  href: api/VBGraphics.GraphicsForm.html
-  commentId: T:VBGraphics.GraphicsForm
-  fullName: VBGraphics.GraphicsForm
-  nameWithType: GraphicsForm
-- uid: VBGraphics.GraphicsForm.#ctor
-  name: GraphicsForm()
-  href: api/VBGraphics.GraphicsForm.html#VBGraphics_GraphicsForm__ctor
-  commentId: M:VBGraphics.GraphicsForm.#ctor
-  fullName: VBGraphics.GraphicsForm.GraphicsForm()
-  nameWithType: GraphicsForm.GraphicsForm()
-- uid: VBGraphics.GraphicsForm.#ctor*
-  name: GraphicsForm
-  href: api/VBGraphics.GraphicsForm.html#VBGraphics_GraphicsForm__ctor_
-  commentId: Overload:VBGraphics.GraphicsForm.#ctor
-  fullName: VBGraphics.GraphicsForm.GraphicsForm
-  nameWithType: GraphicsForm.GraphicsForm
 - uid: VBGraphics.GraphicsWindow
   name: GraphicsWindow
   href: api/VBGraphics.GraphicsWindow.html

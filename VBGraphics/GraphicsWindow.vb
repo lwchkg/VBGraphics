@@ -9,6 +9,17 @@ Imports System.Windows.Forms
 
 <Assembly: CLSCompliant(True)>
 Namespace Global.VBGraphics
+    ''' <summary>
+    ''' This is the main class of the VBGraphics package. To use VBGraphics, create a GraphicsWinodw
+    ''' object and then use its methods. Note that most of the methods are implemented as extension
+    ''' methods. So the following is needed at the beginning of your source file:
+    ''' <code language="lang-vb">
+    ''' Imports VBGraphics
+    ''' Imports VBGraphics.BitmapImage
+    ''' Imports VBGraphics.Shapes
+    ''' Imports VBGraphics.Text
+    ''' </code>
+    ''' </summary>
     Public Class GraphicsWindow
         Implements IDisposable
 
@@ -17,10 +28,22 @@ Namespace Global.VBGraphics
         Private _currentKey As KeyEventArgs
         Private _disposing As Boolean = False
 
+        ''' <summary>
+        ''' Create a graphics window with the specified width and height, and fills it with black.
+        ''' </summary>
+        ''' <param name="width">The width of the graphics window, in pixels.</param>
+        ''' <param name="height">The height of the graphics window, in pixels.</param>
         Sub New(width As Integer, height As Integer)
             Me.New(width, height, Color.Black)
         End Sub
 
+        ''' <summary>
+        ''' Create a graphics window with the specified width and height, and fills it with the
+        ''' specified color.
+        ''' </summary>
+        ''' <param name="width">The width of the graphics window, in pixels.</param>
+        ''' <param name="height">The height of the graphics window, in pixels.</param>
+        ''' <param name="color">The color to fill in.</param>
         Sub New(width As Integer, height As Integer, color As Color)
             _Image = New Bitmap(width, height)
             Graphics.FromImage(_Image).Clear(color)
@@ -32,6 +55,13 @@ Namespace Global.VBGraphics
             _Form.Show()
         End Sub
 
+        ''' <summary>
+        ''' <para>Close the graphics window, and release all unmanaged resources used by the window.
+        ''' This raises the WindowClosed event, and if EndProgramOnClose is true, also quits the
+        ''' program.</para>
+        ''' <para>When Dispose is run, the graphics window closes even if CanClose is false. The
+        ''' event WindowClosing is not raised.</para>
+        ''' </summary>
         Sub Dispose() Implements IDisposable.Dispose
             Dispose(True)
             GC.SuppressFinalize(Me)
@@ -43,43 +73,96 @@ Namespace Global.VBGraphics
             _Image.Dispose()
         End Sub
 
-        ' WindowClosing is raised when the user close the form, when GraphicsWindow.Form.Close is
-        ' called, and when Application.Exit is called. However, the event is not raised when
-        ' GraphicsWindow is disposed of, nor when Windows shut down.
+        ''' <summary>
+        ''' WindowClosing is raised when the user close the form, when GraphicsWindow.Form.Close is
+        ''' called, and when Application.Exit is called. However, the event is not raised when
+        ''' GraphicsWindow is disposed of, nor when Windows shut down.
+        ''' </summary>
         Public Event WindowClosing(sender As GraphicsWindow, e As FormClosingEventArgs)
 
-        ' WindowClosed is always raised when the GraphicsWindow is closed. In the case of disposing
-        ' GraphicsWindows, the image in GraphicsWindow is disposed after this event is raised.
+        ''' <summary>
+        ''' WindowClosed is raised when the GraphicsWindow is closed, regardless of the reason of
+        ''' closing the window.  In the case of disposing GraphicsWindows, the image in
+        ''' GraphicsWindow is still usable in the duration of this event.
+        ''' </summary>
         Public Event WindowClosed(sender As Object, e As FormClosedEventArgs)
 
+        ''' <summary>
+        ''' Gets a boolean indicating whether the graphics windows is open.
+        ''' </summary>
         ReadOnly Property IsLiving As Boolean = True
 
-        ' Whether GraphicsWindow can be closed by user action, Form.Close or Application.Exit.
-        ' However, this is ignored when GraphicsWindows is disposed of, and when Windows shut down.
+        ''' <summary>
+        ''' <para>Gets or sets a boolean indicating whether the GraphicsWindow can be closed by user
+        ''' action, Form.Close or Application.Exit. However, this has no effect when the
+        ''' GraphicsWindows is disposed, or when Windows shut down.</para>
+        ''' <para>To prevent unexpected results, set EndProgramOnClose to the desired value and add
+        ''' the listener to WindowClosing and WindowClosed events before setting CanClose to true.
+        ''' </para>
+        ''' <para>Similarly, set CanClose to false before setting EngProgramOnClose and removing
+        ''' event listeners.</para>
+        ''' </summary>
         Property CanClose As Boolean = False
 
-        ' If true, calls Environment.Exit after GraphicsWindow is closed. EndProgramOnClose is
-        ' handled after WindowClosed event is raised.
+        ''' <summary>
+        ''' If true, Environment.Exit is called after GraphicsWindow is closed. EndProgramOnClose is
+        ''' handled after WindowClosed event is raised.
+        ''' </summary>
         Property EndProgramOnClose As Boolean = True
 
+        ''' <summary>
+        ''' <para>Gets or sets a boolean indicating whether modifier keys (Ctrl, Alt, Shift) are
+        ''' recorded to the key queue.</para>
+        ''' <para>Note: The Windows key is not recorded, regardless of the value of this property.
+        ''' Also, the Alt key comes with nasty surprises, and it should not be one of the controls
+        ''' of your app.</para>
+        ''' </summary>
         Property CaptureModifierKeys As Boolean = False
 
+        ''' <summary>
+        ''' Gets the Form used by the graphics window.
+        ''' </summary>
         ReadOnly Property Form As Form
             Get
                 Return _Form
             End Get
         End Property
 
+        ''' <summary>
+        ''' Gets or sets the image used by the graphics window. Setting this property to an object
+        ''' other than a Bitmap is undefined behavior (it may work, but this is not tested).
+        ''' </summary>
         ReadOnly Property Image As Image
 
+        ''' <summary>
+        ''' Invalidate the graphics window, causing it to be redrawn. This should be called after
+        ''' you manipulate the image of the graphics window manually.
+        ''' </summary>
         Public Sub Invalidate()
             _Form.Invalidate()
         End Sub
 
+        ''' <summary>
+        ''' <para>Create a Graphics object of the image of the graphics window. You can use this
+        ''' object to draw on the image manually.</para>
+        ''' <para>After drawing, call the Invalidate method of the GraphicsWindow to make the
+        ''' graphics window redraw. Otherwise, the operation you do to the image may not be shown on
+        ''' the screen.</para>
+        ''' </summary>
+        ''' <returns>A Graphics object of the image of the graphics window.</returns>
         Public Function CreateGraphics() As Graphics
             Return Graphics.FromImage(Image)
         End Function
 
+        ''' <summary>
+        ''' <para>Create a Graphics object of the image of the graphics window, with the smoothing
+        ''' mode of lines, curves and edges of filled areas set to antialiasing. You can use this
+        ''' object to draw on the image manually.</para>
+        ''' <para>After drawing, call the Invalidate method of the GraphicsWindow to make the
+        ''' graphics window redraw. Otherwise, the operation you do to the image may not be shown on
+        ''' the screen.</para>
+        ''' </summary>
+        ''' <returns>A Graphics object of the image of the graphics window.</returns>
         Public Function CreateGraphicsWithSmoothing() As Graphics
             Dim g As Graphics = CreateGraphics()
             g.SmoothingMode = Drawing2D.SmoothingMode.AntiAlias
@@ -87,6 +170,9 @@ Namespace Global.VBGraphics
         End Function
 
 #Region "Key Handlers"
+        ''' <summary>
+        ''' Gets a boolean indicating whether keys are present in the queue.
+        ''' </summary>
         ReadOnly Property KeyAvailable As Boolean
             Get
                 Application.DoEvents()
@@ -94,39 +180,70 @@ Namespace Global.VBGraphics
             End Get
         End Property
 
+        ''' <summary>
+        ''' Returns the next key in the queue as KeyEventArgs. If no key is in the queue, wait until
+        ''' the user press the next key.
+        ''' </summary>
         Public Function ReadKey() As KeyEventArgs
             WaitUntilKeyAvailable()
             Return ReadKeyIfAvailable()
         End Function
 
+        ''' <summary>
+        ''' Returns the next key in the queue as KeyEventArgs, or Nothing if no key is in the queue.
+        ''' </summary>
         Public Function ReadKeyIfAvailable() As KeyEventArgs
             Return If(KeyAvailable, _keys.Dequeue().Key, Nothing)
         End Function
 
+        ''' <summary>
+        ''' Returns the next key in the queue as Char. If no key is in the queue, wait until the
+        ''' user press the next key. Note that some keys are associated the null character.
+        ''' </summary>
         Public Function ReadKeyChar() As Char
             WaitUntilKeyAvailable()
             Return ReadKeyCharIfAvailable()
         End Function
 
+        ''' <summary>
+        ''' Returns the next key in the queue as Char, or the null character if no key is in the
+        ''' queue. Note that some keys are associated the null character, so a null return does not
+        ''' indicate that no keys are pressed.
+        ''' </summary>
         Public Function ReadKeyCharIfAvailable() As Char
             Return If(KeyAvailable, _keys.Dequeue().KeyChar,
                       Microsoft.VisualBasic.ControlChars.NullChar)
         End Function
 
+        ''' <summary>
+        ''' Returns the next key in the queue as KeyInfo structure. If no key is in the queue, wait
+        ''' until the user press the next key.
+        ''' </summary>
         Public Function ReadKeyInfo() As KeyInfo
             WaitUntilKeyAvailable()
             Return ReadKeyInfoIfAvailable()
         End Function
 
+        ''' <summary>
+        ''' Returns the next key in the queue as KeyInfo structure, or Nothing if no key is in the
+        ''' queue.
+        ''' </summary>
         Public Function ReadKeyInfoIfAvailable() As KeyInfo
             Return If(KeyAvailable, _keys.Dequeue(), Nothing)
         End Function
 
+        ''' <summary>
+        ''' If the key queue is empty and the graphics window is open, wait until the user press a
+        ''' key.
+        ''' </summary>
         Public Sub WaitUntilKeyAvailable()
             While Not KeyAvailable AndAlso IsLiving
             End While
         End Sub
 
+        ''' <summary>
+        ''' Empty the key queue.
+        ''' </summary>
         Public Sub EmptyKeys()
             _keys.Clear()
         End Sub

@@ -38,23 +38,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/VBGraphics.GraphicsForm.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/VBGraphics.GraphicsForm.html",
-          "hash": "poMS9sRP6DfS6XJdU+Nsvw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/VBGraphics.GraphicsWindow.yml",
       "output": {
         ".html": {
           "relative_path": "api/VBGraphics.GraphicsWindow.html",
-          "hash": "ekue5x4UpHrmJeDo1hQorQ=="
+          "hash": "6/hj4PWjg6dtH0hQyaZT+A=="
         }
       },
       "is_incremental": false,
@@ -102,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VBGraphics.html",
-          "hash": "cR4DqJB+arAsoa4EBaH2Sg=="
+          "hash": "OPhPkZM4Bd6ntIy2LvybCw=="
         }
       },
       "is_incremental": false,
@@ -114,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "/qlBzeG8aoFrV+zV6tBk1A=="
+          "hash": "dfODARF9alZb5cYzbEtR5w=="
         }
       },
       "is_incremental": false,
@@ -140,17 +128,17 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build"
         }
       }
