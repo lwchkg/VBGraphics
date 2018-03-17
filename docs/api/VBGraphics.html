@@ -81,16 +81,30 @@
   <h1 id="VBGraphics" data-uid="VBGraphics" class="text-break">Namespace VBGraphics
   </h1>
   <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 conceptual"><p>Here is an overview of the classes and structures in the package:</p>
+<ul>
+<li><a class="xref" href="VBGraphics.GraphicsWindow.html">GraphicsWindow</a>: The main class you are interacting with.</li>
+<li>All other classes: Extension modules that provides functionality to
+<a class="xref" href="VBGraphics.GraphicsWindow.html">GraphicsWindow</a>.</li>
+<li><a class="xref" href="VBGraphics.KeyInfo.html">KeyInfo</a>: The structure returned by
+<a class="xref" href="VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_ReadKeyInfo">ReadKeyInfo()</a> and
+<a class="xref" href="VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_ReadKeyInfoIfAvailable">ReadKeyInfoIfAvailable()</a>.</li>
+</ul>
+</div>
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
       <h4><a class="xref" href="VBGraphics.BitmapImage.html">BitmapImage</a></h4>
       <section></section>
-      <h4><a class="xref" href="VBGraphics.GraphicsForm.html">GraphicsForm</a></h4>
-      <section></section>
       <h4><a class="xref" href="VBGraphics.GraphicsWindow.html">GraphicsWindow</a></h4>
-      <section></section>
+      <section><p>This is the main class of the VBGraphics package. To use VBGraphics, create a GraphicsWinodw
+object and then use its methods. Note that most of the methods are implemented as extension
+methods. So the following is needed at the beginning of your source file:</p>
+<pre><code class="lang-vb">Imports VBGraphics
+Imports VBGraphics.BitmapImage
+Imports VBGraphics.Shapes
+Imports VBGraphics.Text</code></pre>
+</section>
       <h4><a class="xref" href="VBGraphics.Shapes.html">Shapes</a></h4>
       <section></section>
       <h4><a class="xref" href="VBGraphics.Text.html">Text</a></h4>
@@ -106,6 +120,9 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/lwchkg/VBGraphics/blob/master/docfx/specs/VBGraphics.md/#L2" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

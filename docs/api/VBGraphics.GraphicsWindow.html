@@ -81,7 +81,14 @@
   
   <h1 id="VBGraphics_GraphicsWindow" data-uid="VBGraphics.GraphicsWindow" class="text-break">Class GraphicsWindow
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>This is the main class of the VBGraphics package. To use VBGraphics, create a GraphicsWinodw
+object and then use its methods. Note that most of the methods are implemented as extension
+methods. So the following is needed at the beginning of your source file:</p>
+<pre><code class="lang-vb">Imports VBGraphics
+Imports VBGraphics.BitmapImage
+Imports VBGraphics.Shapes
+Imports VBGraphics.Text</code></pre>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -132,11 +139,12 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow__ctor_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.%23ctor(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L20">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L36">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow__ctor_" data-uid="VBGraphics.GraphicsWindow.#ctor*"></a>
   <h4 id="VBGraphics_GraphicsWindow__ctor_System_Int32_System_Int32_" data-uid="VBGraphics.GraphicsWindow.#ctor(System.Int32,System.Int32)">GraphicsWindow(Int32, Int32)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Create a graphics window with the specified width and height, and fills it with black.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -155,12 +163,14 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">width</span></td>
-        <td></td>
+        <td><p>The width of the graphics window, in pixels.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">height</span></td>
-        <td></td>
+        <td><p>The height of the graphics window, in pixels.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -169,11 +179,13 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow__ctor_System_Int32_System_Int32_System_Drawing_Color_.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.%23ctor(System.Int32%2CSystem.Int32%2CSystem.Drawing.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L24">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L47">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow__ctor_" data-uid="VBGraphics.GraphicsWindow.#ctor*"></a>
   <h4 id="VBGraphics_GraphicsWindow__ctor_System_Int32_System_Int32_System_Drawing_Color_" data-uid="VBGraphics.GraphicsWindow.#ctor(System.Int32,System.Int32,System.Drawing.Color)">GraphicsWindow(Int32, Int32, Color)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Create a graphics window with the specified width and height, and fills it with the
+specified color.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -192,17 +204,20 @@
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">width</span></td>
-        <td></td>
+        <td><p>The width of the graphics window, in pixels.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">height</span></td>
-        <td></td>
+        <td><p>The height of the graphics window, in pixels.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color to fill in.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -213,11 +228,19 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_CanClose.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.CanClose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L59">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L105">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow_CanClose_" data-uid="VBGraphics.GraphicsWindow.CanClose*"></a>
   <h4 id="VBGraphics_GraphicsWindow_CanClose" data-uid="VBGraphics.GraphicsWindow.CanClose">CanClose</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets or sets a boolean indicating whether the GraphicsWindow can be closed by user
+action, Form.Close or Application.Exit. However, this has no effect when the
+GraphicsWindows is disposed, or when Windows shut down.</p>
+<p>To prevent unexpected results, set EndProgramOnClose to the desired value and add
+the listener to WindowClosing and WindowClosed events before setting CanClose to true.
+</p>
+<p>Similarly, set CanClose to false before setting EngProgramOnClose and removing
+event listeners.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -243,11 +266,16 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_CaptureModifierKeys.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.CaptureModifierKeys%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L65">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L120">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow_CaptureModifierKeys_" data-uid="VBGraphics.GraphicsWindow.CaptureModifierKeys*"></a>
   <h4 id="VBGraphics_GraphicsWindow_CaptureModifierKeys" data-uid="VBGraphics.GraphicsWindow.CaptureModifierKeys">CaptureModifierKeys</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets or sets a boolean indicating whether modifier keys (Ctrl, Alt, Shift) are
+recorded to the key queue.</p>
+<p>Note: The Windows key is not recorded, regardless of the value of this property.
+Also, the Alt key comes with nasty surprises, and it should not be one of the controls
+of your app.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -273,11 +301,13 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_EndProgramOnClose.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.EndProgramOnClose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L63">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L111">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow_EndProgramOnClose_" data-uid="VBGraphics.GraphicsWindow.EndProgramOnClose*"></a>
   <h4 id="VBGraphics_GraphicsWindow_EndProgramOnClose" data-uid="VBGraphics.GraphicsWindow.EndProgramOnClose">EndProgramOnClose</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>If true, Environment.Exit is called after GraphicsWindow is closed. EndProgramOnClose is
+handled after WindowClosed event is raised.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -303,11 +333,12 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_Form.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.Form%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L67">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L125">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow_Form_" data-uid="VBGraphics.GraphicsWindow.Form*"></a>
   <h4 id="VBGraphics_GraphicsWindow_Form" data-uid="VBGraphics.GraphicsWindow.Form">Form</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the Form used by the graphics window.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -333,11 +364,13 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_Image.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.Image%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L73">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L135">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow_Image_" data-uid="VBGraphics.GraphicsWindow.Image*"></a>
   <h4 id="VBGraphics_GraphicsWindow_Image" data-uid="VBGraphics.GraphicsWindow.Image">Image</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets or sets the image used by the graphics window. Setting this property to an object
+other than a Bitmap is undefined behavior (it may work, but this is not tested).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -363,11 +396,12 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_IsLiving.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.IsLiving%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L55">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L93">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow_IsLiving_" data-uid="VBGraphics.GraphicsWindow.IsLiving*"></a>
   <h4 id="VBGraphics_GraphicsWindow_IsLiving" data-uid="VBGraphics.GraphicsWindow.IsLiving">IsLiving</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets a boolean indicating whether the graphics windows is open.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -393,11 +427,12 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_KeyAvailable.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.KeyAvailable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L90">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L176">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow_KeyAvailable_" data-uid="VBGraphics.GraphicsWindow.KeyAvailable*"></a>
   <h4 id="VBGraphics_GraphicsWindow_KeyAvailable" data-uid="VBGraphics.GraphicsWindow.KeyAvailable">KeyAvailable</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets a boolean indicating whether keys are present in the queue.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -425,11 +460,16 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_CreateGraphics.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.CreateGraphics%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L79">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L153">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow_CreateGraphics_" data-uid="VBGraphics.GraphicsWindow.CreateGraphics*"></a>
   <h4 id="VBGraphics_GraphicsWindow_CreateGraphics" data-uid="VBGraphics.GraphicsWindow.CreateGraphics">CreateGraphics()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Create a Graphics object of the image of the graphics window. You can use this
+object to draw on the image manually.</p>
+<p>After drawing, call the Invalidate method of the GraphicsWindow to make the
+graphics window redraw. Otherwise, the operation you do to the image may not be shown on
+the screen.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -446,7 +486,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.graphics">Graphics</a></td>
-        <td></td>
+        <td><p>A Graphics object of the image of the graphics window.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -455,11 +496,17 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_CreateGraphicsWithSmoothing.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.CreateGraphicsWithSmoothing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L83">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L166">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow_CreateGraphicsWithSmoothing_" data-uid="VBGraphics.GraphicsWindow.CreateGraphicsWithSmoothing*"></a>
   <h4 id="VBGraphics_GraphicsWindow_CreateGraphicsWithSmoothing" data-uid="VBGraphics.GraphicsWindow.CreateGraphicsWithSmoothing">CreateGraphicsWithSmoothing()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Create a Graphics object of the image of the graphics window, with the smoothing
+mode of lines, curves and edges of filled areas set to antialiasing. You can use this
+object to draw on the image manually.</p>
+<p>After drawing, call the Invalidate method of the GraphicsWindow to make the
+graphics window redraw. Otherwise, the operation you do to the image may not be shown on
+the screen.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -476,7 +523,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.graphics">Graphics</a></td>
-        <td></td>
+        <td><p>A Graphics object of the image of the graphics window.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -485,7 +533,7 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L40">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L70">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow_Dispose_" data-uid="VBGraphics.GraphicsWindow.Dispose*"></a>
   <h4 id="VBGraphics_GraphicsWindow_Dispose_System_Boolean_" data-uid="VBGraphics.GraphicsWindow.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -517,11 +565,12 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_EmptyKeys.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.EmptyKeys%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L130">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L247">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow_EmptyKeys_" data-uid="VBGraphics.GraphicsWindow.EmptyKeys*"></a>
   <h4 id="VBGraphics_GraphicsWindow_EmptyKeys" data-uid="VBGraphics.GraphicsWindow.EmptyKeys">EmptyKeys()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Empty the key queue.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -532,11 +581,13 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_Invalidate.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.Invalidate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L75">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L141">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow_Invalidate_" data-uid="VBGraphics.GraphicsWindow.Invalidate*"></a>
   <h4 id="VBGraphics_GraphicsWindow_Invalidate" data-uid="VBGraphics.GraphicsWindow.Invalidate">Invalidate()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Invalidate the graphics window, causing it to be redrawn. This should be called after
+you manipulate the image of the graphics window manually.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -547,11 +598,13 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_ReadKey.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.ReadKey%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L97">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L187">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow_ReadKey_" data-uid="VBGraphics.GraphicsWindow.ReadKey*"></a>
   <h4 id="VBGraphics_GraphicsWindow_ReadKey" data-uid="VBGraphics.GraphicsWindow.ReadKey">ReadKey()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the next key in the queue as KeyEventArgs. If no key is in the queue, wait until
+the user press the next key.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -577,11 +630,13 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_ReadKeyChar.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.ReadKeyChar%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L106">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L203">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow_ReadKeyChar_" data-uid="VBGraphics.GraphicsWindow.ReadKeyChar*"></a>
   <h4 id="VBGraphics_GraphicsWindow_ReadKeyChar" data-uid="VBGraphics.GraphicsWindow.ReadKeyChar">ReadKeyChar()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the next key in the queue as Char. If no key is in the queue, wait until the
+user press the next key. Note that some keys are associated the null character.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -607,11 +662,14 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_ReadKeyCharIfAvailable.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.ReadKeyCharIfAvailable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L111">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L213">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow_ReadKeyCharIfAvailable_" data-uid="VBGraphics.GraphicsWindow.ReadKeyCharIfAvailable*"></a>
   <h4 id="VBGraphics_GraphicsWindow_ReadKeyCharIfAvailable" data-uid="VBGraphics.GraphicsWindow.ReadKeyCharIfAvailable">ReadKeyCharIfAvailable()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the next key in the queue as Char, or the null character if no key is in the
+queue. Note that some keys are associated the null character, so a null return does not
+indicate that no keys are pressed.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -637,11 +695,12 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_ReadKeyIfAvailable.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.ReadKeyIfAvailable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L102">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L195">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow_ReadKeyIfAvailable_" data-uid="VBGraphics.GraphicsWindow.ReadKeyIfAvailable*"></a>
   <h4 id="VBGraphics_GraphicsWindow_ReadKeyIfAvailable" data-uid="VBGraphics.GraphicsWindow.ReadKeyIfAvailable">ReadKeyIfAvailable()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the next key in the queue as KeyEventArgs, or Nothing if no key is in the queue.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -667,11 +726,13 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_ReadKeyInfo.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.ReadKeyInfo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L116">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L222">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow_ReadKeyInfo_" data-uid="VBGraphics.GraphicsWindow.ReadKeyInfo*"></a>
   <h4 id="VBGraphics_GraphicsWindow_ReadKeyInfo" data-uid="VBGraphics.GraphicsWindow.ReadKeyInfo">ReadKeyInfo()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the next key in the queue as KeyInfo structure. If no key is in the queue, wait
+until the user press the next key.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -697,11 +758,13 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_ReadKeyInfoIfAvailable.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.ReadKeyInfoIfAvailable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L121">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L231">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow_ReadKeyInfoIfAvailable_" data-uid="VBGraphics.GraphicsWindow.ReadKeyInfoIfAvailable*"></a>
   <h4 id="VBGraphics_GraphicsWindow_ReadKeyInfoIfAvailable" data-uid="VBGraphics.GraphicsWindow.ReadKeyInfoIfAvailable">ReadKeyInfoIfAvailable()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the next key in the queue as KeyInfo structure, or Nothing if no key is in the
+queue.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -727,11 +790,13 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_WaitUntilKeyAvailable.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.WaitUntilKeyAvailable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L125">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L239">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow_WaitUntilKeyAvailable_" data-uid="VBGraphics.GraphicsWindow.WaitUntilKeyAvailable*"></a>
   <h4 id="VBGraphics_GraphicsWindow_WaitUntilKeyAvailable" data-uid="VBGraphics.GraphicsWindow.WaitUntilKeyAvailable">WaitUntilKeyAvailable()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>If the key queue is empty and the graphics window is open, wait until the user press a
+key.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -744,10 +809,13 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_WindowClosed.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.WindowClosed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L53">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L88">View Source</a>
   </span>
   <h4 id="VBGraphics_GraphicsWindow_WindowClosed" data-uid="VBGraphics.GraphicsWindow.WindowClosed">WindowClosed</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>WindowClosed is raised when the GraphicsWindow is closed, regardless of the reason of
+closing the window.  In the case of disposing GraphicsWindows, the image in
+GraphicsWindow is still usable in the duration of this event.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -773,10 +841,13 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_WindowClosing.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.WindowClosing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L49">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L81">View Source</a>
   </span>
   <h4 id="VBGraphics_GraphicsWindow_WindowClosing" data-uid="VBGraphics.GraphicsWindow.WindowClosing">WindowClosing</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>WindowClosing is raised when the user close the form, when GraphicsWindow.Form.Close is
+called, and when Application.Exit is called. However, the event is not raised when
+GraphicsWindow is disposed of, nor when Windows shut down.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -804,11 +875,16 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow_Dispose.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L35">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L65">View Source</a>
   </span>
   <a id="VBGraphics_GraphicsWindow_Dispose_" data-uid="VBGraphics.GraphicsWindow.Dispose*"></a>
   <h4 id="VBGraphics_GraphicsWindow_Dispose" data-uid="VBGraphics.GraphicsWindow.Dispose">IDisposable.Dispose()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Close the graphics window, and release all unmanaged resources used by the window.
+This raises the WindowClosed event, and if EndProgramOnClose is true, also quits the
+program.</p>
+<p>When Dispose is run, the graphics window closes even if CanClose is false. The
+event WindowClosing is not raised.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -902,7 +978,7 @@
                     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_GraphicsWindow.md&amp;value=---%0Auid%3A%20VBGraphics.GraphicsWindow%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindow.vb/#L23" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
