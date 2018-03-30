@@ -6,15 +6,29 @@ Imports System.Runtime.CompilerServices
 Namespace Global.VBGraphics
 
     Public Module BitmapImage
-        ' Draws the image at point (x, y).
+        ''' <summary>
+        ''' Draw the image at point (x, y).
+        ''' </summary>
+        ''' <param name="gw">The graphics object</param>
+        ''' <param name="image">The image to draw</param>
+        ''' <param name="x">The x-coordinate of the top-left corner of the drawn image</param>
+        ''' <param name="y">The y-coordinate of the top-left corner of the drawn image</param>
         <Extension()>
         Sub DrawImage(gw As GraphicsWindow, image As Image, x As Integer, y As Integer)
             gw.CreateGraphics().DrawImage(image, x, y)
             gw.Invalidate()
         End Sub
 
-        ' Draws the image at point (x, y), where the image is resized to (width, height). The drawn
-        ' image is not smoothed.
+        ''' <summary>
+        ''' Draw the image at point (x, y), where the image is resized to the specified width and
+        ''' height. The drawn image is not smoothed.
+        ''' </summary>
+        ''' <param name="gw">The graphics object</param>
+        ''' <param name="image">The image to draw</param>
+        ''' <param name="x">The x-coordinate of the top-left corner of the drawn image</param>
+        ''' <param name="y">The y-coordinate of the top-left corner of the drawn image</param>
+        ''' <param name="width">The resized width</param>
+        ''' <param name="height">The resized height</param>
         <Extension()>
         Sub DrawImageResized(gw As GraphicsWindow, image As Image, x As Integer, y As Integer,
                              width As Integer, height As Integer)
@@ -25,8 +39,16 @@ Namespace Global.VBGraphics
             gw.Invalidate()
         End Sub
 
-        ' Draws the image at point (x, y), where the image is resized to (width, height). The drawn
-        ' image is smoothed.
+        ''' <summary>
+        ''' Draw the image at point (x, y), where the image is resized to the specified width and
+        ''' height. The drawn image is smoothed.
+        ''' </summary>
+        ''' <param name="gw">The graphics object</param>
+        ''' <param name="image">The image to draw</param>
+        ''' <param name="x">The x-coordinate of the top-left corner of the drawn image</param>
+        ''' <param name="y">The y-coordinate of the top-left corner of the drawn image</param>
+        ''' <param name="width">The resized width</param>
+        ''' <param name="height">The resized height</param>
         <Extension()>
         Sub DrawImageResizedWithSmoothing(gw As GraphicsWindow, image As Image, x As Integer,
                                           y As Integer, width As Integer, height As Integer)
@@ -62,7 +84,19 @@ Namespace Global.VBGraphics
             gw.Invalidate()
         End Sub
 
-        ' Draws the specified part of the image at point (x, y).
+        ''' <summary>
+        ''' Draw the specified rectangular part of the image at point (x, y).
+        ''' </summary>
+        ''' <param name="gw">The graphics object</param>
+        ''' <param name="image">The image to draw</param>
+        ''' <param name="x">The x-coordinate of the top-left corner of the drawn image</param>
+        ''' <param name="y">The y-coordinate of the top-left corner of the drawn image</param>
+        ''' <param name="srcX">The x-coordinate of the top-left corner of the specified part pf the
+        ''' source image</param>
+        ''' <param name="srcY">The y-coordinate of the top-left corner of the specified part of the
+        ''' source image</param>
+        ''' <param name="srcWidth">The width of the specified part of the source image</param>
+        ''' <param name="srcHeight">The height of the specified part of the source image</param>
         <Extension()>
         Sub DrawImageWithClipping(gw As GraphicsWindow, image As Image, x As Integer, y As Integer,
                                   srcX As Integer, srcY As Integer, srcWidth As Integer,
@@ -73,13 +107,25 @@ Namespace Global.VBGraphics
             gw.Invalidate()
         End Sub
 
-        ' Returns the graphics window as a bitmap.
+        ''' <summary>
+        ''' Return the graphics window as a bitmap.
+        ''' </summary>
+        ''' <param name="gw">The graphics window</param>
+        ''' <returns>The bitmap of the graphics window</returns>
         <Extension()>
         Function GetBitmap(gw As GraphicsWindow) As Bitmap
             Return New Bitmap(gw.Image)
         End Function
 
-        ' Returns the specified part of the graphics window as a bitmap.
+        ''' <summary>
+        ''' Return the specified rectangular part of the graphics window as a bitmap.
+        ''' </summary>
+        ''' <param name="gw">The graphics window</param>
+        ''' <param name="x">The x-coordinate of the top-left corner of the specified part</param>
+        ''' <param name="y">The y-coordinate of the top-left corner of the specified part</param>
+        ''' <param name="width">The width of the specfied part</param>
+        ''' <param name="height">The height of the specfied part</param>
+        ''' <returns>The bitmap of the specified rectangular part of graphics window</returns>
         <Extension()>
         Function GetBitmap(gw As GraphicsWindow, x As Integer, y As Integer,
                            width As Integer, height As Integer) As Bitmap
