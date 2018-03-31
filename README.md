@@ -41,9 +41,8 @@ documentation and more tutorials.
 ## Installation
 
 VBGraphics is available as a NuGet module. Beginners should following the
-following steps (or the video) for installation.
-
-<iframe width="562" height="360" src="https://www.youtube.com/embed/InU7Qk8RJTc?rel=0&amp;cc_load_policy=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+following steps (or the [video](https://www.youtube.com/watch?v=InU7Qk8RJTc&feature=youtu.be))
+for installation.
 
 1. Create a new Visual Basic Console App.
 2. Install the extension VBGraphics.
