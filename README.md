@@ -8,26 +8,39 @@ simple games in the QBasic way.
 
 Example project: [Nibbles for VBGraphics](https://github.com/lwchkg/Nibbles_VBGraphics)
 
-See [documentation](https://lwchkg.github.io/VBGraphics/) for API documentation
-and more tutorials.
+See the [documentation](https://lwchkg.github.io/VBGraphics/) for API
+documentation and more tutorials.
 
 ## Features
 
-* Graphics routines that wraps around Windows Forms.
-* Text routines for input and output.
-* Keyboard routines.
-* The graphics windows can be resized or maximized, with the content
-  automatically zoomed to fill the whole window.
+### Simple and yet powerful
+
+* Graphics windows can be resized or maximized, with the content automatically
+  zoomed to fill the whole window.
+* Works correctly on high DPI settings.
 * Events are raised when the user try to close the graphics window, when Windows
   shut down, and when the GraphicsWindow object is disposed. User closing of the
   graphics window can be cancelled programatically.
-* Extensible. You can add your favourite polygon routine, Beizer curve routines,
-  or whatever, as [extension methods](https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods),
+
+### Extensible
+
+* You can add your favourite polygon routine, Beizer curve routines, or
+  whatever, as [extension methods](https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods),
   without modifying VBGraphics source code.
-* The underlying form and bitmap of a graphics window can be accessed and
-  manipulated. This adds to the extensibility of VBGraphics.
+* The underlying form (wrapped around WinForms) and bitmap of a graphics window
+  can be accessed and manipulated.
+
+### Routines available
+
+* Lines, rectangles and ellipses
+* Text rendering
+* Interactive text input
+* Keyboard routines
 
 ## Installation
+
+VBGraphics is available as a NuGet module. Beginners should following the
+following steps for installation.
 
 1. Create a new Visual Basic Console App.
 2. Install the extension VBGraphics.
@@ -81,8 +94,9 @@ End Module
 
 ## To-dos
 
-* Add intellisense documentation.
-* Update documentation page.
-* Add video installation instructions.
+* Update documentation site.
+* Add tutorials in the documentation site for common tasks.
+* Add video of installation instructions.
+* Add template project for easier installation.
 * Add routines for mouse and touch screen.
 * Add more graphics routines. (e.g. Polygons? DrawText overloads?)
