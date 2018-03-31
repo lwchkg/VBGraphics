@@ -103,7 +103,6 @@ End Module
 
 * Update documentation site.
 * Add tutorials in the documentation site for common tasks.
-* Add video of installation instructions.
 * Add template project for easier installation.
 * Add routines for mouse and touch screen.
 * Add more graphics routines. (e.g. Polygons? DrawText overloads?)
