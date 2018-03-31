@@ -41,7 +41,9 @@ documentation and more tutorials.
 ## Installation
 
 VBGraphics is available as a NuGet module. Beginners should following the
-following steps for installation.
+following steps (or the video) for installation.
+
+<iframe width="562" height="360" src="https://www.youtube.com/embed/InU7Qk8RJTc?rel=0&amp;cc_load_policy=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 1. Create a new Visual Basic Console App.
 2. Install the extension VBGraphics.
@@ -61,6 +63,11 @@ following steps for installation.
    5. In the imported namespace section, check both “System.Drawing” and
       “System.Windows.Forms”.
 4. Add some sample code (see below).
+5. Change the application type to Windows Form Application.
+   1. In the Solution Explorer, right click your project (e.g. ConsoleApp1),
+      then select “Properties”. A new tab will appear.
+   2. Click “Application”.
+   3. Change application type to “Windows Form Application”.
 
 ## Sample code
 
