@@ -34,6 +34,7 @@ documentation and more tutorials.
 
 * Lines, rectangles and ellipses
 * Text rendering
+* Bitmap image handling
 * Interactive text input
 * Keyboard routines
 
