@@ -23,6 +23,7 @@ references:
   name: DrawImage
   href: api/VBGraphics.BitmapImage.html#VBGraphics_BitmapImage_DrawImage_
   commentId: Overload:VBGraphics.BitmapImage.DrawImage
+  isSpec: "True"
   fullName: VBGraphics.BitmapImage.DrawImage
   nameWithType: BitmapImage.DrawImage
 - uid: VBGraphics.BitmapImage.DrawImageResized(VBGraphics.GraphicsWindow,System.Drawing.Image,System.Int32,System.Int32,System.Int32,System.Int32)
@@ -35,6 +36,7 @@ references:
   name: DrawImageResized
   href: api/VBGraphics.BitmapImage.html#VBGraphics_BitmapImage_DrawImageResized_
   commentId: Overload:VBGraphics.BitmapImage.DrawImageResized
+  isSpec: "True"
   fullName: VBGraphics.BitmapImage.DrawImageResized
   nameWithType: BitmapImage.DrawImageResized
 - uid: VBGraphics.BitmapImage.DrawImageResizedWithSmoothing(VBGraphics.GraphicsWindow,System.Drawing.Image,System.Int32,System.Int32,System.Int32,System.Int32)
@@ -47,6 +49,7 @@ references:
   name: DrawImageResizedWithSmoothing
   href: api/VBGraphics.BitmapImage.html#VBGraphics_BitmapImage_DrawImageResizedWithSmoothing_
   commentId: Overload:VBGraphics.BitmapImage.DrawImageResizedWithSmoothing
+  isSpec: "True"
   fullName: VBGraphics.BitmapImage.DrawImageResizedWithSmoothing
   nameWithType: BitmapImage.DrawImageResizedWithSmoothing
 - uid: VBGraphics.BitmapImage.DrawImageWithClipping(VBGraphics.GraphicsWindow,System.Drawing.Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
@@ -59,6 +62,7 @@ references:
   name: DrawImageWithClipping
   href: api/VBGraphics.BitmapImage.html#VBGraphics_BitmapImage_DrawImageWithClipping_
   commentId: Overload:VBGraphics.BitmapImage.DrawImageWithClipping
+  isSpec: "True"
   fullName: VBGraphics.BitmapImage.DrawImageWithClipping
   nameWithType: BitmapImage.DrawImageWithClipping
 - uid: VBGraphics.BitmapImage.GetBitmap(VBGraphics.GraphicsWindow)
@@ -77,6 +81,7 @@ references:
   name: GetBitmap
   href: api/VBGraphics.BitmapImage.html#VBGraphics_BitmapImage_GetBitmap_
   commentId: Overload:VBGraphics.BitmapImage.GetBitmap
+  isSpec: "True"
   fullName: VBGraphics.BitmapImage.GetBitmap
   nameWithType: BitmapImage.GetBitmap
 - uid: VBGraphics.GraphicsWindow
@@ -101,6 +106,7 @@ references:
   name: GraphicsWindow
   href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow__ctor_
   commentId: Overload:VBGraphics.GraphicsWindow.#ctor
+  isSpec: "True"
   fullName: VBGraphics.GraphicsWindow.GraphicsWindow
   nameWithType: GraphicsWindow.GraphicsWindow
 - uid: VBGraphics.GraphicsWindow.CanClose
@@ -113,6 +119,7 @@ references:
   name: CanClose
   href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_CanClose_
   commentId: Overload:VBGraphics.GraphicsWindow.CanClose
+  isSpec: "True"
   fullName: VBGraphics.GraphicsWindow.CanClose
   nameWithType: GraphicsWindow.CanClose
 - uid: VBGraphics.GraphicsWindow.CaptureModifierKeys
@@ -125,6 +132,7 @@ references:
   name: CaptureModifierKeys
   href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_CaptureModifierKeys_
   commentId: Overload:VBGraphics.GraphicsWindow.CaptureModifierKeys
+  isSpec: "True"
   fullName: VBGraphics.GraphicsWindow.CaptureModifierKeys
   nameWithType: GraphicsWindow.CaptureModifierKeys
 - uid: VBGraphics.GraphicsWindow.CreateGraphics
@@ -137,6 +145,7 @@ references:
   name: CreateGraphics
   href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_CreateGraphics_
   commentId: Overload:VBGraphics.GraphicsWindow.CreateGraphics
+  isSpec: "True"
   fullName: VBGraphics.GraphicsWindow.CreateGraphics
   nameWithType: GraphicsWindow.CreateGraphics
 - uid: VBGraphics.GraphicsWindow.CreateGraphicsWithSmoothing
@@ -149,6 +158,7 @@ references:
   name: CreateGraphicsWithSmoothing
   href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_CreateGraphicsWithSmoothing_
   commentId: Overload:VBGraphics.GraphicsWindow.CreateGraphicsWithSmoothing
+  isSpec: "True"
   fullName: VBGraphics.GraphicsWindow.CreateGraphicsWithSmoothing
   nameWithType: GraphicsWindow.CreateGraphicsWithSmoothing
 - uid: VBGraphics.GraphicsWindow.Dispose
@@ -170,6 +180,7 @@ references:
   name: IDisposable.Dispose
   href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_Dispose_
   commentId: Overload:VBGraphics.GraphicsWindow.Dispose
+  isSpec: "True"
   name.vb: Dispose
   fullName: VBGraphics.GraphicsWindow.System.IDisposable.Dispose
   fullName.vb: VBGraphics.GraphicsWindow.Dispose
@@ -185,6 +196,7 @@ references:
   name: EmptyKeys
   href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_EmptyKeys_
   commentId: Overload:VBGraphics.GraphicsWindow.EmptyKeys
+  isSpec: "True"
   fullName: VBGraphics.GraphicsWindow.EmptyKeys
   nameWithType: GraphicsWindow.EmptyKeys
 - uid: VBGraphics.GraphicsWindow.EndProgramOnClose
@@ -197,6 +209,7 @@ references:
   name: EndProgramOnClose
   href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_EndProgramOnClose_
   commentId: Overload:VBGraphics.GraphicsWindow.EndProgramOnClose
+  isSpec: "True"
   fullName: VBGraphics.GraphicsWindow.EndProgramOnClose
   nameWithType: GraphicsWindow.EndProgramOnClose
 - uid: VBGraphics.GraphicsWindow.Form
@@ -209,6 +222,7 @@ references:
   name: Form
   href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_Form_
   commentId: Overload:VBGraphics.GraphicsWindow.Form
+  isSpec: "True"
   fullName: VBGraphics.GraphicsWindow.Form
   nameWithType: GraphicsWindow.Form
 - uid: VBGraphics.GraphicsWindow.Image
@@ -221,6 +235,7 @@ references:
   name: Image
   href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_Image_
   commentId: Overload:VBGraphics.GraphicsWindow.Image
+  isSpec: "True"
   fullName: VBGraphics.GraphicsWindow.Image
   nameWithType: GraphicsWindow.Image
 - uid: VBGraphics.GraphicsWindow.Invalidate
@@ -233,6 +248,7 @@ references:
   name: Invalidate
   href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_Invalidate_
   commentId: Overload:VBGraphics.GraphicsWindow.Invalidate
+  isSpec: "True"
   fullName: VBGraphics.GraphicsWindow.Invalidate
   nameWithType: GraphicsWindow.Invalidate
 - uid: VBGraphics.GraphicsWindow.IsLiving
@@ -245,6 +261,7 @@ references:
   name: IsLiving
   href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_IsLiving_
   commentId: Overload:VBGraphics.GraphicsWindow.IsLiving
+  isSpec: "True"
   fullName: VBGraphics.GraphicsWindow.IsLiving
   nameWithType: GraphicsWindow.IsLiving
 - uid: VBGraphics.GraphicsWindow.KeyAvailable
@@ -257,6 +274,7 @@ references:
   name: KeyAvailable
   href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_KeyAvailable_
   commentId: Overload:VBGraphics.GraphicsWindow.KeyAvailable
+  isSpec: "True"
   fullName: VBGraphics.GraphicsWindow.KeyAvailable
   nameWithType: GraphicsWindow.KeyAvailable
 - uid: VBGraphics.GraphicsWindow.ReadKey
@@ -269,6 +287,7 @@ references:
   name: ReadKey
   href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_ReadKey_
   commentId: Overload:VBGraphics.GraphicsWindow.ReadKey
+  isSpec: "True"
   fullName: VBGraphics.GraphicsWindow.ReadKey
   nameWithType: GraphicsWindow.ReadKey
 - uid: VBGraphics.GraphicsWindow.ReadKeyChar
@@ -281,6 +300,7 @@ references:
   name: ReadKeyChar
   href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_ReadKeyChar_
   commentId: Overload:VBGraphics.GraphicsWindow.ReadKeyChar
+  isSpec: "True"
   fullName: VBGraphics.GraphicsWindow.ReadKeyChar
   nameWithType: GraphicsWindow.ReadKeyChar
 - uid: VBGraphics.GraphicsWindow.ReadKeyCharIfAvailable
@@ -293,6 +313,7 @@ references:
   name: ReadKeyCharIfAvailable
   href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_ReadKeyCharIfAvailable_
   commentId: Overload:VBGraphics.GraphicsWindow.ReadKeyCharIfAvailable
+  isSpec: "True"
   fullName: VBGraphics.GraphicsWindow.ReadKeyCharIfAvailable
   nameWithType: GraphicsWindow.ReadKeyCharIfAvailable
 - uid: VBGraphics.GraphicsWindow.ReadKeyIfAvailable
@@ -305,6 +326,7 @@ references:
   name: ReadKeyIfAvailable
   href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_ReadKeyIfAvailable_
   commentId: Overload:VBGraphics.GraphicsWindow.ReadKeyIfAvailable
+  isSpec: "True"
   fullName: VBGraphics.GraphicsWindow.ReadKeyIfAvailable
   nameWithType: GraphicsWindow.ReadKeyIfAvailable
 - uid: VBGraphics.GraphicsWindow.ReadKeyInfo
@@ -317,6 +339,7 @@ references:
   name: ReadKeyInfo
   href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_ReadKeyInfo_
   commentId: Overload:VBGraphics.GraphicsWindow.ReadKeyInfo
+  isSpec: "True"
   fullName: VBGraphics.GraphicsWindow.ReadKeyInfo
   nameWithType: GraphicsWindow.ReadKeyInfo
 - uid: VBGraphics.GraphicsWindow.ReadKeyInfoIfAvailable
@@ -329,6 +352,7 @@ references:
   name: ReadKeyInfoIfAvailable
   href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_ReadKeyInfoIfAvailable_
   commentId: Overload:VBGraphics.GraphicsWindow.ReadKeyInfoIfAvailable
+  isSpec: "True"
   fullName: VBGraphics.GraphicsWindow.ReadKeyInfoIfAvailable
   nameWithType: GraphicsWindow.ReadKeyInfoIfAvailable
 - uid: VBGraphics.GraphicsWindow.WaitUntilKeyAvailable
@@ -341,6 +365,7 @@ references:
   name: WaitUntilKeyAvailable
   href: api/VBGraphics.GraphicsWindow.html#VBGraphics_GraphicsWindow_WaitUntilKeyAvailable_
   commentId: Overload:VBGraphics.GraphicsWindow.WaitUntilKeyAvailable
+  isSpec: "True"
   fullName: VBGraphics.GraphicsWindow.WaitUntilKeyAvailable
   nameWithType: GraphicsWindow.WaitUntilKeyAvailable
 - uid: VBGraphics.GraphicsWindow.WindowClosed
@@ -371,6 +396,7 @@ references:
   name: KeyInfo
   href: api/VBGraphics.KeyInfo.html#VBGraphics_KeyInfo__ctor_
   commentId: Overload:VBGraphics.KeyInfo.#ctor
+  isSpec: "True"
   fullName: VBGraphics.KeyInfo.KeyInfo
   nameWithType: KeyInfo.KeyInfo
 - uid: VBGraphics.KeyInfo.Key
@@ -383,6 +409,7 @@ references:
   name: Key
   href: api/VBGraphics.KeyInfo.html#VBGraphics_KeyInfo_Key_
   commentId: Overload:VBGraphics.KeyInfo.Key
+  isSpec: "True"
   fullName: VBGraphics.KeyInfo.Key
   nameWithType: KeyInfo.Key
 - uid: VBGraphics.KeyInfo.KeyChar
@@ -395,6 +422,7 @@ references:
   name: KeyChar
   href: api/VBGraphics.KeyInfo.html#VBGraphics_KeyInfo_KeyChar_
   commentId: Overload:VBGraphics.KeyInfo.KeyChar
+  isSpec: "True"
   fullName: VBGraphics.KeyInfo.KeyChar
   nameWithType: KeyInfo.KeyChar
 - uid: VBGraphics.Shapes
@@ -413,6 +441,7 @@ references:
   name: Clear
   href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_Clear_
   commentId: Overload:VBGraphics.Shapes.Clear
+  isSpec: "True"
   fullName: VBGraphics.Shapes.Clear
   nameWithType: Shapes.Clear
 - uid: VBGraphics.Shapes.DrawEllipse(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Drawing.Color,System.Single)
@@ -437,6 +466,7 @@ references:
   name: DrawEllipse
   href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawEllipse_
   commentId: Overload:VBGraphics.Shapes.DrawEllipse
+  isSpec: "True"
   fullName: VBGraphics.Shapes.DrawEllipse
   nameWithType: Shapes.DrawEllipse
 - uid: VBGraphics.Shapes.DrawEllipseWithSmoothing(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Drawing.Color,System.Single)
@@ -461,6 +491,7 @@ references:
   name: DrawEllipseWithSmoothing
   href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawEllipseWithSmoothing_
   commentId: Overload:VBGraphics.Shapes.DrawEllipseWithSmoothing
+  isSpec: "True"
   fullName: VBGraphics.Shapes.DrawEllipseWithSmoothing
   nameWithType: Shapes.DrawEllipseWithSmoothing
 - uid: VBGraphics.Shapes.DrawLine(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color)
@@ -479,6 +510,7 @@ references:
   name: DrawLine
   href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawLine_
   commentId: Overload:VBGraphics.Shapes.DrawLine
+  isSpec: "True"
   fullName: VBGraphics.Shapes.DrawLine
   nameWithType: Shapes.DrawLine
 - uid: VBGraphics.Shapes.DrawLineWithSmoothing(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color)
@@ -497,6 +529,7 @@ references:
   name: DrawLineWithSmoothing
   href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawLineWithSmoothing_
   commentId: Overload:VBGraphics.Shapes.DrawLineWithSmoothing
+  isSpec: "True"
   fullName: VBGraphics.Shapes.DrawLineWithSmoothing
   nameWithType: Shapes.DrawLineWithSmoothing
 - uid: VBGraphics.Shapes.DrawRectangle(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Drawing.Color,System.Single)
@@ -521,6 +554,7 @@ references:
   name: DrawRectangle
   href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawRectangle_
   commentId: Overload:VBGraphics.Shapes.DrawRectangle
+  isSpec: "True"
   fullName: VBGraphics.Shapes.DrawRectangle
   nameWithType: Shapes.DrawRectangle
 - uid: VBGraphics.Shapes.DrawRectangleWithSmoothing(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Drawing.Color,System.Single)
@@ -545,6 +579,7 @@ references:
   name: DrawRectangleWithSmoothing
   href: api/VBGraphics.Shapes.html#VBGraphics_Shapes_DrawRectangleWithSmoothing_
   commentId: Overload:VBGraphics.Shapes.DrawRectangleWithSmoothing
+  isSpec: "True"
   fullName: VBGraphics.Shapes.DrawRectangleWithSmoothing
   nameWithType: Shapes.DrawRectangleWithSmoothing
 - uid: VBGraphics.Text
@@ -569,6 +604,7 @@ references:
   name: DrawText
   href: api/VBGraphics.Text.html#VBGraphics_Text_DrawText_
   commentId: Overload:VBGraphics.Text.DrawText
+  isSpec: "True"
   fullName: VBGraphics.Text.DrawText
   nameWithType: Text.DrawText
 - uid: VBGraphics.Text.DrawTextInRectangle(VBGraphics.GraphicsWindow,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Drawing.Font,System.Windows.Forms.TextFormatFlags)
@@ -587,6 +623,7 @@ references:
   name: DrawTextInRectangle
   href: api/VBGraphics.Text.html#VBGraphics_Text_DrawTextInRectangle_
   commentId: Overload:VBGraphics.Text.DrawTextInRectangle
+  isSpec: "True"
   fullName: VBGraphics.Text.DrawTextInRectangle
   nameWithType: Text.DrawTextInRectangle
 - uid: VBGraphics.Text.ReadLine(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Drawing.Color,System.String,System.Single,System.Drawing.FontStyle,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color},System.Windows.Forms.TextFormatFlags)
@@ -602,5 +639,6 @@ references:
   name: ReadLine
   href: api/VBGraphics.Text.html#VBGraphics_Text_ReadLine_
   commentId: Overload:VBGraphics.Text.ReadLine
+  isSpec: "True"
   fullName: VBGraphics.Text.ReadLine
   nameWithType: Text.ReadLine
