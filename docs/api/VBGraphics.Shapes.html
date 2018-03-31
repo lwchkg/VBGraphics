@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Shapes
    | VBGraphics documentation ">
-    <meta name="generator" content="docfx 2.32.2.0">
+    <meta name="generator" content="docfx 2.33.1.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -100,11 +100,12 @@
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_Shapes_Clear_VBGraphics_GraphicsWindow_System_Drawing_Color_.md&amp;value=---%0Auid%3A%20VBGraphics.Shapes.Clear(VBGraphics.GraphicsWindow%2CSystem.Drawing.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L9">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L14">View Source</a>
   </span>
   <a id="VBGraphics_Shapes_Clear_" data-uid="VBGraphics.Shapes.Clear*"></a>
   <h4 id="VBGraphics_Shapes_Clear_VBGraphics_GraphicsWindow_System_Drawing_Color_" data-uid="VBGraphics.Shapes.Clear(VBGraphics.GraphicsWindow,System.Drawing.Color)">Clear(GraphicsWindow, Color)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Fill the graphics windows with the specified color.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -124,12 +125,14 @@ public static void Clear(this GraphicsWindow gw, Color color)</code></pre>
       <tr>
         <td><a class="xref" href="VBGraphics.GraphicsWindow.html">GraphicsWindow</a></td>
         <td><span class="parametername">gw</span></td>
-        <td></td>
+        <td><p>The graphics window object</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -138,11 +141,14 @@ public static void Clear(this GraphicsWindow gw, Color color)</code></pre>
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_Shapes_DrawEllipse_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Drawing_Color_System_Single_.md&amp;value=---%0Auid%3A%20VBGraphics.Shapes.DrawEllipse(VBGraphics.GraphicsWindow%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Nullable%7BSystem.Drawing.Color%7D%2CSystem.Drawing.Color%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L118">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L242">View Source</a>
   </span>
   <a id="VBGraphics_Shapes_DrawEllipse_" data-uid="VBGraphics.Shapes.DrawEllipse*"></a>
   <h4 id="VBGraphics_Shapes_DrawEllipse_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Drawing_Color_System_Single_" data-uid="VBGraphics.Shapes.DrawEllipse(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Drawing.Color,System.Single)">DrawEllipse(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable&lt;Color&gt;, Color, Single)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Draw an ellipse defined by a bounding rectangle, and with the specified fill color,
+stroke color, and stroke width. The bounding rectangle has its top-left corner at
+(x, y), and the specified width and height. The stroke is drawn without anti-aliasing.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -162,42 +168,52 @@ public static void DrawEllipse(this GraphicsWindow gw, int x, int y, int width, 
       <tr>
         <td><a class="xref" href="VBGraphics.GraphicsWindow.html">GraphicsWindow</a></td>
         <td><span class="parametername">gw</span></td>
-        <td></td>
+        <td><p>The graphics object</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">x</span></td>
-        <td></td>
+        <td><p>The x-coordinate of the top-left corner of the bounding rectangle that
+defines the ellipse.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">y</span></td>
-        <td></td>
+        <td><p>The y-coordinate of the top-left corner of the bounding rectangle that
+defines the ellipse.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">width</span></td>
-        <td></td>
+        <td><p>The width of the bounding rectangle that defines the ellipse</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">height</span></td>
-        <td></td>
+        <td><p>The height of the bounding rectangle that defines the ellipse</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a>&gt;</td>
         <td><span class="parametername">fill</span></td>
-        <td></td>
+        <td><p>The color to fill, or Nothing for no fill</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
         <td><span class="parametername">stroke</span></td>
-        <td></td>
+        <td><p>The color of the stroke, or Nothing for no stroke</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">strokeWidth</span></td>
-        <td></td>
+        <td><p>The width of the stroke</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -206,11 +222,14 @@ public static void DrawEllipse(this GraphicsWindow gw, int x, int y, int width, 
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_Shapes_DrawEllipse_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__.md&amp;value=---%0Auid%3A%20VBGraphics.Shapes.DrawEllipse(VBGraphics.GraphicsWindow%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Nullable%7BSystem.Drawing.Color%7D%2CSystem.Nullable%7BSystem.Drawing.Color%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L104">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L212">View Source</a>
   </span>
   <a id="VBGraphics_Shapes_DrawEllipse_" data-uid="VBGraphics.Shapes.DrawEllipse*"></a>
   <h4 id="VBGraphics_Shapes_DrawEllipse_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__" data-uid="VBGraphics.Shapes.DrawEllipse(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color})">DrawEllipse(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable&lt;Color&gt;, Nullable&lt;Color&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Draw an ellipse defined by a bounding rectangle, and with the specified fill color and
+stroke color. The bounding rectangle has its top-left corner at (x, y), and the
+specified width and height. The stroke is drawn without anti-aliasing.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -230,37 +249,46 @@ public static void DrawEllipse(this GraphicsWindow gw, int x, int y, int width, 
       <tr>
         <td><a class="xref" href="VBGraphics.GraphicsWindow.html">GraphicsWindow</a></td>
         <td><span class="parametername">gw</span></td>
-        <td></td>
+        <td><p>The graphics object</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">x</span></td>
-        <td></td>
+        <td><p>The x-coordinate of the top-left corner of the bounding rectangle that
+defines the ellipse.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">y</span></td>
-        <td></td>
+        <td><p>The y-coordinate of the top-left corner of the bounding rectangle that
+defines the ellipse.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">width</span></td>
-        <td></td>
+        <td><p>The width of the bounding rectangle that defines the ellipse</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">height</span></td>
-        <td></td>
+        <td><p>The height of the bounding rectangle that defines the ellipse</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a>&gt;</td>
         <td><span class="parametername">fill</span></td>
-        <td></td>
+        <td><p>The color to fill, or Nothing for no fill</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a>&gt;</td>
         <td><span class="parametername">stroke</span></td>
-        <td></td>
+        <td><p>The color of the stroke, or Nothing for no stroke</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -269,11 +297,14 @@ public static void DrawEllipse(this GraphicsWindow gw, int x, int y, int width, 
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_Shapes_DrawEllipseWithSmoothing_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Drawing_Color_System_Single_.md&amp;value=---%0Auid%3A%20VBGraphics.Shapes.DrawEllipseWithSmoothing(VBGraphics.GraphicsWindow%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Nullable%7BSystem.Drawing.Color%7D%2CSystem.Drawing.Color%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L146">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L301">View Source</a>
   </span>
   <a id="VBGraphics_Shapes_DrawEllipseWithSmoothing_" data-uid="VBGraphics.Shapes.DrawEllipseWithSmoothing*"></a>
   <h4 id="VBGraphics_Shapes_DrawEllipseWithSmoothing_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Drawing_Color_System_Single_" data-uid="VBGraphics.Shapes.DrawEllipseWithSmoothing(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Drawing.Color,System.Single)">DrawEllipseWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable&lt;Color&gt;, Color, Single)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Draw an ellipse defined by a bounding rectangle, and with the specified fill color,
+stroke color, and stroke width. The bounding rectangle has its top-left corner at
+(x, y), and the specified width and height. The stroke is drawn with anti-aliasing.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -293,42 +324,52 @@ public static void DrawEllipseWithSmoothing(this GraphicsWindow gw, int x, int y
       <tr>
         <td><a class="xref" href="VBGraphics.GraphicsWindow.html">GraphicsWindow</a></td>
         <td><span class="parametername">gw</span></td>
-        <td></td>
+        <td><p>The graphics object</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">x</span></td>
-        <td></td>
+        <td><p>The x-coordinate of the top-left corner of the bounding rectangle that
+defines the ellipse.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">y</span></td>
-        <td></td>
+        <td><p>The y-coordinate of the top-left corner of the bounding rectangle that
+defines the ellipse.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">width</span></td>
-        <td></td>
+        <td><p>The width of the bounding rectangle that defines the ellipse</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">height</span></td>
-        <td></td>
+        <td><p>The height of the bounding rectangle that defines the ellipse</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a>&gt;</td>
         <td><span class="parametername">fill</span></td>
-        <td></td>
+        <td><p>The color to fill, or Nothing for no fill</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
         <td><span class="parametername">stroke</span></td>
-        <td></td>
+        <td><p>The color of the stroke, or Nothing for no stroke</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">strokeWidth</span></td>
-        <td></td>
+        <td><p>The width of the stroke</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -337,11 +378,14 @@ public static void DrawEllipseWithSmoothing(this GraphicsWindow gw, int x, int y
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_Shapes_DrawEllipseWithSmoothing_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__.md&amp;value=---%0Auid%3A%20VBGraphics.Shapes.DrawEllipseWithSmoothing(VBGraphics.GraphicsWindow%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Nullable%7BSystem.Drawing.Color%7D%2CSystem.Nullable%7BSystem.Drawing.Color%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L130">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L269">View Source</a>
   </span>
   <a id="VBGraphics_Shapes_DrawEllipseWithSmoothing_" data-uid="VBGraphics.Shapes.DrawEllipseWithSmoothing*"></a>
   <h4 id="VBGraphics_Shapes_DrawEllipseWithSmoothing_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__" data-uid="VBGraphics.Shapes.DrawEllipseWithSmoothing(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color})">DrawEllipseWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable&lt;Color&gt;, Nullable&lt;Color&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Draw an ellipse defined by a bounding rectangle, and with the specified fill color and
+stroke color. The bounding rectangle has its top-left corner at (x, y), and the
+specified width and height. The stroke is drawn with anti-aliasing.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -361,37 +405,46 @@ public static void DrawEllipseWithSmoothing(this GraphicsWindow gw, int x, int y
       <tr>
         <td><a class="xref" href="VBGraphics.GraphicsWindow.html">GraphicsWindow</a></td>
         <td><span class="parametername">gw</span></td>
-        <td></td>
+        <td><p>The graphics object</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">x</span></td>
-        <td></td>
+        <td><p>The x-coordinate of the top-left corner of the bounding rectangle that
+defines the ellipse.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">y</span></td>
-        <td></td>
+        <td><p>The y-coordinate of the top-left corner of the bounding rectangle that
+defines the ellipse.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">width</span></td>
-        <td></td>
+        <td><p>The width of the bounding rectangle that defines the ellipse</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">height</span></td>
-        <td></td>
+        <td><p>The height of the bounding rectangle that defines the ellipse</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a>&gt;</td>
         <td><span class="parametername">fill</span></td>
-        <td></td>
+        <td><p>The color to fill, or Nothing for no fill</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a>&gt;</td>
         <td><span class="parametername">stroke</span></td>
-        <td></td>
+        <td><p>The color of the stroke, or Nothing for no stroke</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -400,11 +453,13 @@ public static void DrawEllipseWithSmoothing(this GraphicsWindow gw, int x, int y
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_Shapes_DrawLine_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Drawing_Color_.md&amp;value=---%0Auid%3A%20VBGraphics.Shapes.DrawLine(VBGraphics.GraphicsWindow%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Drawing.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L15">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L30">View Source</a>
   </span>
   <a id="VBGraphics_Shapes_DrawLine_" data-uid="VBGraphics.Shapes.DrawLine*"></a>
   <h4 id="VBGraphics_Shapes_DrawLine_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Drawing_Color_" data-uid="VBGraphics.Shapes.DrawLine(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color)">DrawLine(GraphicsWindow, Int32, Int32, Int32, Int32, Color)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Draw a line from (x1, y1) to (x2, y2) in the graphics window with the specified color
+and without anti-aliasing.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -424,32 +479,38 @@ public static void DrawLine(this GraphicsWindow gw, int x1, int y1, int x2, int 
       <tr>
         <td><a class="xref" href="VBGraphics.GraphicsWindow.html">GraphicsWindow</a></td>
         <td><span class="parametername">gw</span></td>
-        <td></td>
+        <td><p>The graphics window object</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">x1</span></td>
-        <td></td>
+        <td><p>The x-coordinate of the first point</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">y1</span></td>
-        <td></td>
+        <td><p>The y-coordinate of the first point</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">x2</span></td>
-        <td></td>
+        <td><p>The x-coordinate of the second point</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">y2</span></td>
-        <td></td>
+        <td><p>y-coordinate of the first point</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -458,11 +519,13 @@ public static void DrawLine(this GraphicsWindow gw, int x1, int y1, int x2, int 
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_Shapes_DrawLine_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Drawing_Color_System_Single_.md&amp;value=---%0Auid%3A%20VBGraphics.Shapes.DrawLine(VBGraphics.GraphicsWindow%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Drawing.Color%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L22">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L48">View Source</a>
   </span>
   <a id="VBGraphics_Shapes_DrawLine_" data-uid="VBGraphics.Shapes.DrawLine*"></a>
   <h4 id="VBGraphics_Shapes_DrawLine_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Drawing_Color_System_Single_" data-uid="VBGraphics.Shapes.DrawLine(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Single)">DrawLine(GraphicsWindow, Int32, Int32, Int32, Int32, Color, Single)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Draw a line from (x1, y1) to (x2, y2) in the graphics window with the specified color
+and line width, and without anti-aliasing.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -482,37 +545,44 @@ public static void DrawLine(this GraphicsWindow gw, int x1, int y1, int x2, int 
       <tr>
         <td><a class="xref" href="VBGraphics.GraphicsWindow.html">GraphicsWindow</a></td>
         <td><span class="parametername">gw</span></td>
-        <td></td>
+        <td><p>The graphics window object</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">x1</span></td>
-        <td></td>
+        <td><p>The x-coordinate of the first point</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">y1</span></td>
-        <td></td>
+        <td><p>The y-coordinate of the first point</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">x2</span></td>
-        <td></td>
+        <td><p>The x-coordinate of the second point</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">y2</span></td>
-        <td></td>
+        <td><p>y-coordinate of the first point</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">width</span></td>
-        <td></td>
+        <td><p>Line width</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -521,11 +591,13 @@ public static void DrawLine(this GraphicsWindow gw, int x1, int y1, int x2, int 
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_Shapes_DrawLineWithSmoothing_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Drawing_Color_.md&amp;value=---%0Auid%3A%20VBGraphics.Shapes.DrawLineWithSmoothing(VBGraphics.GraphicsWindow%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Drawing.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L29">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L65">View Source</a>
   </span>
   <a id="VBGraphics_Shapes_DrawLineWithSmoothing_" data-uid="VBGraphics.Shapes.DrawLineWithSmoothing*"></a>
   <h4 id="VBGraphics_Shapes_DrawLineWithSmoothing_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Drawing_Color_" data-uid="VBGraphics.Shapes.DrawLineWithSmoothing(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color)">DrawLineWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Color)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Draw a line from (x1, y1) to (x2, y2) in the graphics window with the specified color
+and with anti-aliasing.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -545,32 +617,38 @@ public static void DrawLineWithSmoothing(this GraphicsWindow gw, int x1, int y1,
       <tr>
         <td><a class="xref" href="VBGraphics.GraphicsWindow.html">GraphicsWindow</a></td>
         <td><span class="parametername">gw</span></td>
-        <td></td>
+        <td><p>The graphics window object</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">x1</span></td>
-        <td></td>
+        <td><p>The x-coordinate of the first point</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">y1</span></td>
-        <td></td>
+        <td><p>The y-coordinate of the first point</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">x2</span></td>
-        <td></td>
+        <td><p>The x-coordinate of the second point</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">y2</span></td>
-        <td></td>
+        <td><p>y-coordinate of the first point</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -579,11 +657,13 @@ public static void DrawLineWithSmoothing(this GraphicsWindow gw, int x1, int y1,
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_Shapes_DrawLineWithSmoothing_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Drawing_Color_System_Single_.md&amp;value=---%0Auid%3A%20VBGraphics.Shapes.DrawLineWithSmoothing(VBGraphics.GraphicsWindow%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Drawing.Color%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L36">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L83">View Source</a>
   </span>
   <a id="VBGraphics_Shapes_DrawLineWithSmoothing_" data-uid="VBGraphics.Shapes.DrawLineWithSmoothing*"></a>
   <h4 id="VBGraphics_Shapes_DrawLineWithSmoothing_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Drawing_Color_System_Single_" data-uid="VBGraphics.Shapes.DrawLineWithSmoothing(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Color,System.Single)">DrawLineWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Color, Single)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Draw a line from (x1, y1) to (x2, y2) in the graphics window with the specified color
+and line width, and with anti-aliasing.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -603,37 +683,44 @@ public static void DrawLineWithSmoothing(this GraphicsWindow gw, int x1, int y1,
       <tr>
         <td><a class="xref" href="VBGraphics.GraphicsWindow.html">GraphicsWindow</a></td>
         <td><span class="parametername">gw</span></td>
-        <td></td>
+        <td><p>The graphics window object</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">x1</span></td>
-        <td></td>
+        <td><p>The x-coordinate of the first point</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">y1</span></td>
-        <td></td>
+        <td><p>The y-coordinate of the first point</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">x2</span></td>
-        <td></td>
+        <td><p>The x-coordinate of the second point</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">y2</span></td>
-        <td></td>
+        <td><p>y-coordinate of the first point</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
         <td><span class="parametername">color</span></td>
-        <td></td>
+        <td><p>The color</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">width</span></td>
-        <td></td>
+        <td><p>Line width</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -642,11 +729,13 @@ public static void DrawLineWithSmoothing(this GraphicsWindow gw, int x1, int y1,
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_Shapes_DrawRectangle_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Drawing_Color_System_Single_.md&amp;value=---%0Auid%3A%20VBGraphics.Shapes.DrawRectangle(VBGraphics.GraphicsWindow%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Nullable%7BSystem.Drawing.Color%7D%2CSystem.Drawing.Color%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L60">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L130">View Source</a>
   </span>
   <a id="VBGraphics_Shapes_DrawRectangle_" data-uid="VBGraphics.Shapes.DrawRectangle*"></a>
   <h4 id="VBGraphics_Shapes_DrawRectangle_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Drawing_Color_System_Single_" data-uid="VBGraphics.Shapes.DrawRectangle(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Drawing.Color,System.Single)">DrawRectangle(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable&lt;Color&gt;, Color, Single)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Draw a rentangle with the top-left corner at (x, y), and the specified width, height,
+fill color, stroke color, and stroke width. The stroke is drawn without anti-aliasing.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -666,42 +755,50 @@ public static void DrawRectangle(this GraphicsWindow gw, int x, int y, int width
       <tr>
         <td><a class="xref" href="VBGraphics.GraphicsWindow.html">GraphicsWindow</a></td>
         <td><span class="parametername">gw</span></td>
-        <td></td>
+        <td><p>The graphics object</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">x</span></td>
-        <td></td>
+        <td><p>The x-coordinate of the top-left corner of the rectangle</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">y</span></td>
-        <td></td>
+        <td><p>The y-coordinate of the top-left corner of the rectangle</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">width</span></td>
-        <td></td>
+        <td><p>The width of the rectangle</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">height</span></td>
-        <td></td>
+        <td><p>The height of the rectangle</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a>&gt;</td>
         <td><span class="parametername">fill</span></td>
-        <td></td>
+        <td><p>The color to fill, or Nothing for no fill</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
         <td><span class="parametername">stroke</span></td>
-        <td></td>
+        <td><p>The color of the stroke, or Nothing for no stroke</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">strokeWidth</span></td>
-        <td></td>
+        <td><p>The width of the stroke</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -710,11 +807,13 @@ public static void DrawRectangle(this GraphicsWindow gw, int x, int y, int width
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_Shapes_DrawRectangle_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__.md&amp;value=---%0Auid%3A%20VBGraphics.Shapes.DrawRectangle(VBGraphics.GraphicsWindow%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Nullable%7BSystem.Drawing.Color%7D%2CSystem.Nullable%7BSystem.Drawing.Color%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L46">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L104">View Source</a>
   </span>
   <a id="VBGraphics_Shapes_DrawRectangle_" data-uid="VBGraphics.Shapes.DrawRectangle*"></a>
   <h4 id="VBGraphics_Shapes_DrawRectangle_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__" data-uid="VBGraphics.Shapes.DrawRectangle(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color})">DrawRectangle(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable&lt;Color&gt;, Nullable&lt;Color&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Draw a rentangle with the top-left corner at (x, y), and the specified width, height,
+fill color and stroke color.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -734,37 +833,44 @@ public static void DrawRectangle(this GraphicsWindow gw, int x, int y, int width
       <tr>
         <td><a class="xref" href="VBGraphics.GraphicsWindow.html">GraphicsWindow</a></td>
         <td><span class="parametername">gw</span></td>
-        <td></td>
+        <td><p>The graphics object</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">x</span></td>
-        <td></td>
+        <td><p>The x-coordinate of the top-left corner of the rectangle</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">y</span></td>
-        <td></td>
+        <td><p>The y-coordinate of the top-left corner of the rectangle</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">width</span></td>
-        <td></td>
+        <td><p>The width of the rectangle</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">height</span></td>
-        <td></td>
+        <td><p>The height of the rectangle</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a>&gt;</td>
         <td><span class="parametername">fill</span></td>
-        <td></td>
+        <td><p>The color to fill, or Nothing for no fill</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a>&gt;</td>
         <td><span class="parametername">stroke</span></td>
-        <td></td>
+        <td><p>The color of the stroke, or Nothing for no stroke</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -773,11 +879,13 @@ public static void DrawRectangle(this GraphicsWindow gw, int x, int y, int width
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_Shapes_DrawRectangleWithSmoothing_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Drawing_Color_System_Single_.md&amp;value=---%0Auid%3A%20VBGraphics.Shapes.DrawRectangleWithSmoothing(VBGraphics.GraphicsWindow%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Nullable%7BSystem.Drawing.Color%7D%2CSystem.Drawing.Color%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L88">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L181">View Source</a>
   </span>
   <a id="VBGraphics_Shapes_DrawRectangleWithSmoothing_" data-uid="VBGraphics.Shapes.DrawRectangleWithSmoothing*"></a>
   <h4 id="VBGraphics_Shapes_DrawRectangleWithSmoothing_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Drawing_Color_System_Single_" data-uid="VBGraphics.Shapes.DrawRectangleWithSmoothing(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Drawing.Color,System.Single)">DrawRectangleWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable&lt;Color&gt;, Color, Single)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Draw a rentangle with the top-left corner at (x, y), and the specified width, height,
+fill color, stroke color, and stroke width. The stroke is drawn without anti-aliasing.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -797,42 +905,50 @@ public static void DrawRectangleWithSmoothing(this GraphicsWindow gw, int x, int
       <tr>
         <td><a class="xref" href="VBGraphics.GraphicsWindow.html">GraphicsWindow</a></td>
         <td><span class="parametername">gw</span></td>
-        <td></td>
+        <td><p>The graphics object</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">x</span></td>
-        <td></td>
+        <td><p>The x-coordinate of the top-left corner of the rectangle</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">y</span></td>
-        <td></td>
+        <td><p>The y-coordinate of the top-left corner of the rectangle</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">width</span></td>
-        <td></td>
+        <td><p>The width of the rectangle</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">height</span></td>
-        <td></td>
+        <td><p>The height of the rectangle</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a>&gt;</td>
         <td><span class="parametername">fill</span></td>
-        <td></td>
+        <td><p>The color to fill, or Nothing for no fill</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
         <td><span class="parametername">stroke</span></td>
-        <td></td>
+        <td><p>The color of the stroke, or Nothing for no stroke</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td><span class="parametername">strokeWidth</span></td>
-        <td></td>
+        <td><p>The width of the stroke</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -841,11 +957,13 @@ public static void DrawRectangleWithSmoothing(this GraphicsWindow gw, int x, int
     <a href="https://github.com/lwchkg/VBGraphics/new/master/apiSpec/new?filename=VBGraphics_Shapes_DrawRectangleWithSmoothing_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__.md&amp;value=---%0Auid%3A%20VBGraphics.Shapes.DrawRectangleWithSmoothing(VBGraphics.GraphicsWindow%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32%2CSystem.Nullable%7BSystem.Drawing.Color%7D%2CSystem.Nullable%7BSystem.Drawing.Color%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L72">View Source</a>
+    <a href="https://github.com/lwchkg/VBGraphics/blob/master/VBGraphics/GraphicsWindowShapes.vb/#L153">View Source</a>
   </span>
   <a id="VBGraphics_Shapes_DrawRectangleWithSmoothing_" data-uid="VBGraphics.Shapes.DrawRectangleWithSmoothing*"></a>
   <h4 id="VBGraphics_Shapes_DrawRectangleWithSmoothing_VBGraphics_GraphicsWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__" data-uid="VBGraphics.Shapes.DrawRectangleWithSmoothing(VBGraphics.GraphicsWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Nullable{System.Drawing.Color},System.Nullable{System.Drawing.Color})">DrawRectangleWithSmoothing(GraphicsWindow, Int32, Int32, Int32, Int32, Nullable&lt;Color&gt;, Nullable&lt;Color&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Draw a rentangle with the top-left corner at (x, y), and the specified width, height,
+fill color, and stroke color. The stroke is drawn with anti-aliasing.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -865,37 +983,44 @@ public static void DrawRectangleWithSmoothing(this GraphicsWindow gw, int x, int
       <tr>
         <td><a class="xref" href="VBGraphics.GraphicsWindow.html">GraphicsWindow</a></td>
         <td><span class="parametername">gw</span></td>
-        <td></td>
+        <td><p>The graphics object</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">x</span></td>
-        <td></td>
+        <td><p>The x-coordinate of the top-left corner of the rectangle</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">y</span></td>
-        <td></td>
+        <td><p>The y-coordinate of the top-left corner of the rectangle</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">width</span></td>
-        <td></td>
+        <td><p>The width of the rectangle</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
         <td><span class="parametername">height</span></td>
-        <td></td>
+        <td><p>The height of the rectangle</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a>&gt;</td>
         <td><span class="parametername">fill</span></td>
-        <td></td>
+        <td><p>The color to fill, or Nothing for no fill</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a>&gt;</td>
         <td><span class="parametername">stroke</span></td>
-        <td></td>
+        <td><p>The color of the stroke, or Nothing for no stroke</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -930,7 +1055,7 @@ public static void DrawRectangleWithSmoothing(this GraphicsWindow gw, int x, int
               <a href="#top">Back to top</a>
             </span>
             
-            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+            <span>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>
