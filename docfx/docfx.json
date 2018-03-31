@@ -19,12 +19,12 @@
         "dest": "api"
       },
       {
-        "files": [ "articles/**/*.md", "*.md", "toc.yml", "restapi/**" ]
+        "files": [ "tutorial/**/*.md", "*.md", "**/toc.yml", "restapi/**" ]
       }
     ],
     "resource": [
       {
-        "files": [ "articles/images/**"]
+        "files": [ "tutorial/images/**"]
       }
     ],
     "overwrite": "specs/*.md",

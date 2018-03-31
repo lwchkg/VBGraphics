@@ -57,8 +57,8 @@ for installation.
       then select “Properties”. A new tab will appear.
    2. Click “References”.
    3. Click “Add…”.
-   4. Click “Assemblies”. Find the items “System.Drawing” and
-      “System.Windows.Forms”. Check both of them, and press “OK”.
+   4. Find the items “System.Drawing” and “System.Windows.Forms”. Check both of
+      them, and press “OK”.
    5. In the imported namespace section, check both “System.Drawing” and
       “System.Windows.Forms”.
 4. Add some sample code (see below).
@@ -72,9 +72,6 @@ for installation.
 
 ```vbnet
 Imports VBGraphics
-Imports VBGraphics.BitmapImage
-Imports VBGraphics.Shapes
-Imports VBGraphics.Text
 
 Module Module1
     Sub Main()

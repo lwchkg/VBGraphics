@@ -1,0 +1,272 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Installing VBGraphics | VBGraphics documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Installing VBGraphics | VBGraphics documentation ">
+    <meta name="generator" content="docfx 2.33.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<style type="text/css">
+    ol > li > ol { list-style-type: lower-alpha; }
+</style>
+
+<h1 id="installing-vbgraphics">Installing VBGraphics</h1>
+<iframe width="656" height="420" src="https://www.youtube.com/embed/InU7Qk8RJTc?rel=0&amp;cc_load_policy=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<p>VBGraphics is available as a NuGet module. Beginners should follow the
+following steps (or the video) for installation. If you are using C# instead of
+Visual Basic, check the bottom of the page for variations of the instructions.</p>
+<ol>
+<li><p>Create a new Visual Basic Console App.</p>
+</li>
+<li><p>Install the extension VBGraphics.</p>
+<ol>
+<li><p>In the Solution Explorer, right click your project (e.g. ConsoleApp1),
+then select “Manage NuGet Packages…”. A new tab will appear.</p>
+</li>
+<li><p>Click “Browser” in the top-left corner of the tab.</p>
+</li>
+<li><p>Type “VBGraphics” in the text box below. Press Enter.</p>
+</li>
+<li><p>Click on the package.</p>
+</li>
+<li><p>Click “Install”. Make sure you have selected the latest version.</p>
+</li>
+</ol>
+</li>
+<li><p>Add references System.Drawing and System.Windows.Forms.</p>
+<ol>
+<li><p>In the Solution Explorer, right click your project (e.g. ConsoleApp1),
+then select “Properties”. A new tab will appear.</p>
+</li>
+<li><p>Click “References”.</p>
+</li>
+<li><p>Click “Add…”.</p>
+</li>
+<li><p>Find the items “System.Drawing” and “System.Windows.Forms”. Check both of
+them, and press “OK”.</p>
+</li>
+<li><p>In the imported namespace section, check both “System.Drawing” and
+“System.Windows.Forms”.</p>
+</li>
+</ol>
+</li>
+<li><p>Add some sample code (see below).</p>
+</li>
+<li><p>Change the application type to Windows Form Application.</p>
+<ol>
+<li><p>In the Solution Explorer, right click your project (e.g. ConsoleApp1),
+then select “Properties”. A new tab will appear.</p>
+</li>
+<li><p>Click “Application”.</p>
+</li>
+<li><p>Change application type to “Windows Form Application”.</p>
+</li>
+</ol>
+</li>
+</ol>
+<h2 id="sample-code">Sample code</h2>
+<div class="tabGroup" id="tabgroup_2vBPINQuEn">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_2vBPINQuEn_sample1-vb" role="tab" aria-controls="tabpanel_2vBPINQuEn_sample1-vb" data-tab="sample1-vb" tabindex="0" aria-selected="true">VB</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_2vBPINQuEn_sample1-cs" role="tab" aria-controls="tabpanel_2vBPINQuEn_sample1-cs" data-tab="sample1-cs" tabindex="-1">C#</a>
+</li>
+</ul>
+<section id="tabpanel_2vBPINQuEn_sample1-vb" role="tabpanel" data-tab="sample1-vb">
+<pre><code class="lang-vbnet">Imports VBGraphics
+
+Module Module1
+    Sub Main()
+        &#39; Create a graphics windows with resolution 600 x 400.
+        Dim gw As New GraphicsWindow(600, 400)
+
+        &#39; Draw something in the graphics window...
+        gw.DrawLine(0, 0, 599, 399, Color.Red)
+        gw.DrawText(&quot;Press any key to close...&quot;, 0, 370, Color.White, &quot;Cambria&quot;, 16)
+
+        &#39; Make the graphics window closable, and end the program when the window is closed.
+        gw.EndProgramOnClose = True
+        gw.CanClose = True
+
+        &#39; Reads a key in the keyboard. Note: if the user closes the window, this statement will not
+        &#39; finish execution.
+        gw.ReadKey()
+
+        &#39; It is a good habit to dispose the graphics window after use.
+        gw.Dispose()
+    End Sub
+End Module
+</code></pre></section>
+<section id="tabpanel_2vBPINQuEn_sample1-cs" role="tabpanel" data-tab="sample1-cs" aria-hidden="true" hidden="hidden">
+<pre><code class="lang-csharp">// Added by Visual Studio. Do not touch unless you know what you are doing.
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+// Required by VBGraphics.
+using System.Drawing;
+using System.Windows.Forms;
+using VBGraphics;
+
+namespace vbgraphics_cs_test
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Create a graphics windows with resolution 600 x 400.
+            GraphicsWindow gw = new GraphicsWindow(600, 400);
+
+            // Draw something in the graphics window...
+            gw.DrawLine(0, 0, 599, 399, Color.Red);
+            gw.DrawText(&quot;Press any key to close...&quot;, 0, 370, Color.White, &quot;Cambria&quot;, 16);
+
+            // Make the graphics window closable, and end the program when the window is closed.
+            gw.EndProgramOnClose = true;
+            gw.CanClose = true;
+
+            // Reads a key in the keyboard. Note: if the user closes the window, this statement will
+            // not finish execution.
+            gw.ReadKey();
+
+            // It is a good habit to dispose the graphics window after use.
+            gw.Dispose();
+        }
+    }
+}
+</code></pre></section>
+</div>
+<h2 id="installation-instructions-for-c">Installation instructions for C#</h2>
+<p>Installation instructions of VBGraphics in C# are almost the same as those for
+Visual Basic. Here is the list of difference:</p>
+<ol>
+<li><p>In step (1), you create a “Visual C# Console App” instead of a &quot;Visual Basic
+Console App”.</p>
+</li>
+<li><p>Steps (3) is replaced by the following:</p>
+<ol>
+<li><p>In the Solution Explorer, right click your project (e.g. ConsoleApp1),
+then select “Add” → “References…”. A dialog box will appear.</p>
+</li>
+<li><p>Find the items “System.Drawing” and “System.Windows.Forms”. Check both of
+them, and press “OK”.</p>
+</li>
+</ol>
+</li>
+<li><p>For step (5), replace “Windows Form Application” by “Windows Application”.</p>
+</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/lwchkg/VBGraphics/blob/5d78b1faa76cc24873261580f6f5c7a11e6955f7/docfx/tutorial/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
