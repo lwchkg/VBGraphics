@@ -100,6 +100,8 @@ End Module
 
 * Update documentation site.
 * Add tutorials in the documentation site for common tasks.
-* Add template project for easier installation.
+* Add template project for easier installation. (A VB template for VS 2017 is available
+  [here](https://marketplace.visualstudio.com/items?itemName=lwchkg.vbgraphics). Templates for C#
+  and VS2015 is still on to-do list.)
 * Add routines for mouse and touch screen.
 * Add more graphics routines. (e.g. Polygons? DrawText overloads?)
